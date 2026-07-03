@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: LazyLib.jar ExerelinCore.jar MagicLib.jar fr.jar json.jar lw
+ jgl.jar janino.jar jinput.jar jogg-0.0.7.jar lwjgl_util.jar txw2-3.0.2.
+ jar log4j-1.2.9.jar fs.sound_obf.jar fs.common_obf.jar jorbis-0.0.15.ja
+ r starfarer.api.jar starfarer.api.zip starfarer_obf.jar xstream-1.4.10.
+ jar commons-compiler.jar webp-imageio-0.1.6.jar commons-compiler-jdk.ja
+ r jaxb-api-2.4.0-b180830.0359.jar jaxb-api-2.4.0-b180830.0359-sources.j
+ ar
+

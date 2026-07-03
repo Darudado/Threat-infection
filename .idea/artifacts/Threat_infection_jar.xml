@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Threat_infection:jar">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="root">
+      <element id="archive" name="Hdbyunm.jar">
+        <element id="module-output" name="Threat_infection" />
+      </element>
+    </root>
+  </artifact>
+</component>
