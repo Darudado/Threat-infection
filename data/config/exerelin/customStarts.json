@@ -1,0 +1,18 @@
+{
+    "starts": [
+        {
+            "id": "fabricatorStart",
+            "name": "编织之梦",
+            "difficulty": "简单",
+            "desc": "你作为一名ai学者，曾在边缘星系勘探的时候，修复了一艘不知名的ai舰船，你察觉到它可能藏有着大崩塌前的秘密并带回核心星域研究，同时也是你为数不多的战力.",
+            "className": "data.scripts.campaign.customstart.FabricatorStart"
+        },
+        {
+            "id": "wxbsStart",
+            "name": "重启叛变",
+            "difficulty": "简易",
+            "desc": "古老的威胁主宰原型舰在你的手上，哪怕它早已破烂不堪，也是震惊全英仙座的存在，而你能否成为其真正的操纵者还要接受其考验",
+            "className": "data.scripts.campaign.customstart.WxbsStart"
+        },
+    ]
+}

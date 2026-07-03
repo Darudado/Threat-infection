@@ -1,0 +1,184 @@
+{
+  "hullName": "wxml_hull",
+  "hullId": "wxml",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/莫拉3.png",
+  "style": "THREAT",
+  "height": 219,
+  "width": 242,
+  "center": [121, 109.5],
+  "collisionRadius": 136.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 134,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "TheatUniversalDecksUpgrade2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [17.5, 80]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [35.5, -63.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [63.5, -33]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [41, 48]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 47,
+      "locations": [9, 104.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -49.5, 19.5,
+        -50, 29,
+        -49.5, 9.5,
+        -60.5, 24,
+        -60, 14.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -49.5, -18,
+        -50, -25.5,
+        -62.5, -25.5,
+        -63, -17.5,
+        -41, -18
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        41, -1,
+        40, 11.5,
+        40.5, -10.5,
+        25.5, -1,
+        56.5, -1
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-65.5, 2]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-12.5, 106]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [2, -89]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-72, 65],
+      "length": 72,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "THREAT"
+    },
+    {
+      "location": [-72, -65],
+      "length": 72,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "THREAT"
+    },
+    {
+      "location": [-72, 78],
+      "length": 75,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "THREAT"
+    },
+    {
+      "location": [-72, -78],
+      "length": 75,
+      "width": 29,
+      "angle": -180,
+      "contrailSize": 29,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    -74, -98,
+    -93, -37.5,
+    -93, 37.5,
+    -74, 98,
+    -10.5, 117.5,
+    50, 93,
+    94, -15.5,
+    93.5, -34.5,
+    61.5, -62,
+    33, -109.5
+  ]
+}

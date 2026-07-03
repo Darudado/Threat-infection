@@ -1,0 +1,147 @@
+{
+  "hullName": "wxmds_hull",
+  "hullId": "wxmds",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/美杜莎1.png",
+  "style": "THREAT",
+  "height": 167,
+  "width": 163,
+  "center": [79, 84],
+  "collisionRadius": 78.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-1, 27.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [-1, -27.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35.5, 30]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [35.5, -30]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [20, -55]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 47,
+      "locations": [20, 55]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-18, -53.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-18, 53.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-40.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67.5, 22],
+      "length": 53,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "THREAT"
+    },
+    {
+      "location": [-67.5, -22],
+      "length": 53,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "THREAT"
+    },
+    {
+      "location": [-66.5, 12],
+      "length": 51,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "THREAT"
+    },
+    {
+      "location": [-66.5, -12],
+      "length": 51,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    66, -13,
+    38.5, -55,
+    4, -66.5,
+    -42.5, -62.5,
+    -68, -30.5,
+    -68, 30.5,
+    -42.5, 62.5,
+    4, 66.5,
+    38.5, 55,
+    66, 13
+  ]
+}

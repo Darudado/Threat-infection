@@ -1,0 +1,27 @@
+{
+  "hullName": "ZX",
+  "hullId": "ZXMO555",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/000.png",
+  "style": "THREAT",
+  "height": 1,
+  "width": 1,
+  "center": [112, 267],
+  "collisionRadius": 1.5,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 1,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    7.5, -0.5,
+    7.5, 0.5,
+    11, -0.5
+  ]
+}

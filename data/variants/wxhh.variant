@@ -1,0 +1,70 @@
+{
+  "variantId": "wxhh",
+  "hullId": "wxhh",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fragment_swarm",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "threatvpdriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "voidblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "voltaic_discharge",
+        "WS0009": "voltaic_discharge"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "neutron_torpedo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "swarm_launcher",
+        "WS0007": "swarm_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "nmy_DEM"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

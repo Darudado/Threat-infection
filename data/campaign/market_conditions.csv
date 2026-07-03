@@ -1,0 +1,5 @@
+name,id,tags,planetary,decivRemove,script,desc,icon,order
+威胁自适应发展,ThreatResourceReducer,,,TRUE,data.campaign.ThreatResourceReducer,此地的居民均为AI核心或机械生命体。本地船员降至几乎零，陆战队员、器官的需求和产出降为零，消除食品、毒品的需求，其流通性由其资源内循环提高。,graphics/icons/markets/threat_ai.png,
+少量的纳米碎片,nanites_0,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$market 含有适度的纳米碎片，只需适当的经济投资，就能获取不错的回报。,graphics/icons/markets/nanites_0.png,60
+大量的纳米碎片,nanites_1,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,丰富的纳米碎片存在于 $market 的地壳内，其潜在的经济价值足以刺激到一些军阀或巨头的野心。,graphics/icons/markets/nanites_1.png,60
+丰富的纳米碎片,nanites_2,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,富饶的纳米碎片在 $market 的地壳内四处蔓延，其蕴含的强大力量足以促使拥有足够资格的人们将手伸向这里。,graphics/icons/markets/nanites_2.png,60

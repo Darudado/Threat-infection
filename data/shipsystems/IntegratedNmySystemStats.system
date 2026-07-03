@@ -1,0 +1,15 @@
+
+	{
+    	"id":"IntegratedNmySystemStats",
+    	"type":"WEAPON",
+    	"aiType":"CUSTOM",
+        "aiScript":"data.scripts.shipsystems.ai.PhasedDriftAI",
+    	"weaponDataId":"xknmy",
+
+    	"useSound":"sy1",
+    	"outOfUsesSound":"gun_out_of_ammo",
+
+    	"aiHints":{
+    	}
+    }
+}

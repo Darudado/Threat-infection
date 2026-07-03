@@ -1,0 +1,239 @@
+{
+  "hullName": "HX",
+  "hullId": "HXMO",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/HXMO.png",
+  "style": "THREAT",
+  "height": 258,
+  "width": 241,
+  "center": [119.5, 125.5],
+  "collisionRadius": 507.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 507.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "reduced_explosion",
+    "ThreatLinkedHull",
+    "TheatUniversalDecksUpgrade2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [266, 4]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-212.5, -1]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [40.5, 0.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45.5, 59.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23.5, 80]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-33, 78]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [44.5, -58.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23.5, -80.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-32.5, -77.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -65.5, -0.5,
+        -66, 6,
+        -65.5, 10.5,
+        -65.5, -7,
+        -66, -12
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -50.5, 40.5,
+        -50.5, 32,
+        -50.5, 47,
+        -50.5, 52.5,
+        -50.5, 26
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -52, -44,
+        -52.5, -36.5,
+        -52, -48.5,
+        -52.5, -53,
+        -52, -56.5,
+        -52, -31.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -51, -4,
+        -50.5, 2,
+        -51, 7,
+        -51, -10,
+        -43, -0.5
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [288.5, 83.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [286, -73.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 5,
+      "locations": [116, 160]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-48.5, 155.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-43.5, -172.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -5,
+      "locations": [127.5, -160]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    100.5, -77,
+    11, -106,
+    -84, -89,
+    -105, -43.5,
+    -105, 43.5,
+    -84, 89,
+    11, 106,
+    100.5, 77
+  ]
+}

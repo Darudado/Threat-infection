@@ -1,0 +1,78 @@
+{
+  "hullName": "XHM",
+  "hullId": "XHMMO",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/XHMMO1.png",
+  "style": "THREAT",
+  "height": 202,
+  "width": 125,
+  "center": [66.5, 113],
+  "collisionRadius": 108,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 102,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "always_detaches",
+    "reduced_explosion",
+	"ThreatLinkedHull",
+    "TheatUniversalDecksUpgrade2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-24, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-82.5, 37.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [10, 14]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        25, 4,
+        34.5, -1,
+        43.5, -5,
+        52, -9.5,
+        60.5, -13.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -85, 47.5,
+    -50.5, 55,
+    10, 42,
+    77, -12,
+    52, -31,
+    7, -19,
+    -23.5, -24.5,
+    -59, -3,
+    -91, 33.5
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "variantId": "wxmk_sj",
+  "hullId": "wxmk_sj",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 36,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fragment_coordinator",
+    "fragment_swarm",
+    "secondary_fabricator",
+    "hardenedshieldemitter",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil",
+        "WS0002": "neoferric_quadcoil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "voltaic_discharge",
+        "WS0004": "voltaic_discharge",
+        "WS0005": "voltaic_discharge",
+        "WS0006": "voltaic_discharge"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "voidblaster",
+        "WS0008": "voidblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavy_mass_driver",
+        "WS0010": "heavy_mass_driver",
+        "WS0011": "heavy_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "wxsd",
+        "WS0013": "wxsd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "wxcq",
+        "WS0015": "wxcq"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "wxfyp_wing",
+    "wxlks_wing",
+    "wxlks_wing",
+    "wxsj_wing"
+  ]
+}

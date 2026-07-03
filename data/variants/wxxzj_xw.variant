@@ -1,0 +1,51 @@
+{
+  "variantId": "wxxzj_xw",
+  "hullId": "wxxzj_xw",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "fragment_swarm",
+    "autorepair",
+    "targetingunit",
+    "fragment_coordinator",
+    "wxldp",
+    "wxldp1",
+    "secondary_fabricator"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kinetic_fragments",
+        "WS0002": "kinetic_fragments",
+		"WS0005": "wxldp",
+		"WS0006": "wxldp1",
+        "WS0007": "kinetic_fragments",
+        "WS0008": "kinetic_fragments"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "voltaic_discharge",
+        "WS0004": "voltaic_discharge"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "voidblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

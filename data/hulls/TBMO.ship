@@ -1,0 +1,119 @@
+{
+  "hullName": "TB",
+  "hullId": "TBMO",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/TBMO.png",
+  "style": "THREAT",
+  "height": 290,
+  "width": 230,
+  "center": [114.5, 148],
+  "collisionRadius": 211.5,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 211,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "always_detaches",
+	"ThreatLinkedHull",
+    "reduced_explosion",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [-4, 45.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [-4, -45]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [107, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [94.5, 39]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [94.5, -41]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [-50.5, 22]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [-49.5, -22.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-45.5, 58.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-45, -62]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    119, -51,
+    65.5, -70,
+    -8.5, -78.5,
+    -47, -103.5,
+    -73, -90,
+    -127.5, -25,
+    -127.5, 25,
+    -73, 90,
+    -47, 103.5,
+    -8.5, 78.5,
+    65.5, 70,
+    119, 51
+  ]
+}

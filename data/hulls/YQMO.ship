@@ -1,0 +1,242 @@
+{
+  "hullName": "YQ",
+  "hullId": "YQMO",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/YQMO.png",
+  "style": "THREAT",
+  "height": 230,
+  "width": 241,
+  "center": [122, 132],
+  "collisionRadius": 176,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 169,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "always_detaches",
+	"ThreatLinkedHull",
+    "reduced_explosion",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [48.5, 28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-44, -86.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-64, 91.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-65, -9.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-65, 8.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-43.5, -10]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-43, 8.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-65, -90.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-43, 89.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-101, 1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [47, -29.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 120,
+      "locations": [28.5, 70.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -120,
+      "locations": [28.5, -68]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [54.5, 84]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [55, -82]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [62.5, 64]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [62.5, -63.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-116, 77],
+      "length": 256,
+      "width": 97,
+      "angle": -180,
+      "contrailSize": 97,
+      "style": "THREAT"
+    },
+    {
+      "location": [-116, -77],
+      "length": 256,
+      "width": 97,
+      "angle": 180,
+      "contrailSize": 97,
+      "style": "THREAT"
+    },
+    {
+      "location": [-112, 21],
+      "length": 256,
+      "width": 97,
+      "angle": -180,
+      "contrailSize": 97,
+      "style": "THREAT"
+    },
+    {
+      "location": [-112, -21],
+      "length": 256,
+      "width": 97,
+      "angle": 180,
+      "contrailSize": 97,
+      "style": "THREAT"
+    },
+    {
+      "location": [32, 95],
+      "length": 71.5,
+      "width": 23,
+      "angle": 145,
+      "contrailSize": 23,
+      "style": "THREAT"
+    },
+    {
+      "location": [32, -95],
+      "length": 71.5,
+      "width": 23,
+      "angle": -145,
+      "contrailSize": 23,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    79.5, -51,
+    70, -89,
+    56, -101.5,
+    37.5, -102,
+    19.5, -89,
+    -58.5, -99,
+    -120.5, -95,
+    -120.5, 95,
+    -58.5, 99,
+    19.5, 89,
+    37.5, 102,
+    56, 101.5,
+    70, 89,
+    79.5, 51
+  ]
+}

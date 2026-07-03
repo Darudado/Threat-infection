@@ -1,0 +1,85 @@
+{
+  "hullName": "wxbb_hull",
+  "hullId": "wxbb",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/标兵1.png",
+  "style": "THREAT",
+  "height": 111,
+  "width": 80,
+  "center": [40, 55.5],
+  "collisionRadius": 57,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 57,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [4, 11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [30, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-17, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, 7.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-51, -9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-50, -1],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    29, -31.5,
+    8.5, -30.5,
+    -32.5, -22.5,
+    -51, -12.5,
+    -51, 12.5,
+    -32.5, 22.5,
+    8.5, 30.5,
+    29, 31.5,
+    49, 16,
+    43.5, -25.5
+  ]
+}

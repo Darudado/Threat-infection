@@ -1,0 +1,41 @@
+{
+  "variantId": "wxby",
+  "hullId": "wxby",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "secondary_fabricator",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "voidblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavy_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "neutron_torpedo"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "wxfyp_wing"
+  ]
+}

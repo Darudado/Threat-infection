@@ -1,0 +1,153 @@
+{
+	"starSystem": "NOVA_REGULA",
+	"markets": [
+		{
+			"entities": ["nova_regula_1"],
+			"faction": "threat_qr",
+			"size": 6,
+			"startingConditions": [
+				"population_6",
+				"very_hot",
+				"no_atmosphere",
+				"ore_ultrarich",
+				"rare_ore_ultrarich",
+				"volatiles_abundant",
+				"low_gravity",
+				"ThreatResourceReducer",
+				"nanites_2",
+				"stealth_minefields"
+			],
+			"industries": [
+				"population",
+				["mining", "mantle_bore"],
+				["refining", "catalytic_core"],
+				["megaport", "fullerene_spool"],
+				"waystation",
+				["highcommand", "cryoarithmetic_engine"],
+				["heavybatteries", "alpha_core"],
+				["orbitalworks", "pristine_nanoforge"],
+				["wxkjz_a01", "alpha_core"],
+				"ThreatControlHQ",
+				["NanoLifeSupportFacility", "nano_life_support_enhancer"]
+			],
+			"submarkets": ["open_market", "storage"],
+			"tariff": 0.3,
+			"name": "CX-9811 工业殖民地"
+		},
+		{
+			"entities": ["nova_regula_gas_station"],
+			"faction": "threat_qr",
+			"size": 6,
+			"startingConditions": [
+				"population_6",
+				"volatiles_abundant",
+				"ThreatResourceReducer",
+				"stealth_minefields"
+			],
+			"industries": [
+				"population",
+				["mining", "plasma_dynamo"],
+				["fuelprod", "synchrotron"],
+				["megaport", "fullerene_spool"],
+				"waystation",
+				["heavybatteries", "alpha_core"],
+				["wxkjz_b01", "alpha_core"],
+				["highcommand", "alpha_core"],
+				["NanoReconstructionArray", "nanite_reconstructor_forge"]
+			],
+			"submarkets": ["open_market", "storage"],
+			"tariff": 0.3,
+			"name": "联邦之终 气体采集站"
+		},
+		{
+			"entities": ["nova_regula_3"],
+			"faction": "threat_qr",
+			"size": 6,
+			"startingConditions": [
+				"population_6",
+				"habitable",
+				"mild_climate",
+				"water_surface",
+				"organics_common",
+				"ruins_vast",
+				"ThreatResourceReducer",
+				"stealth_minefields",
+				"nanites_0"
+			],
+			"industries": [
+				"population",
+				["megaport", "fullerene_spool"],
+				"waystation",
+				["highcommand", "alpha_core"],
+				["heavybatteries", "alpha_core"],
+				["lightindustry", "biofactory_embryo"],
+				["mining", "alpha_core"],
+				["aquaculture", "alpha_core"],
+				["wxkjz_b01", "alpha_core"]
+			],
+			"submarkets": ["open_market", "storage"],
+			"tariff": 0.3,
+			"name": "知觉之海 海洋殖民地"
+		},
+		{
+			"entities": ["nova_regula_4"],
+			"faction": "threat_qr",
+			"size": 6,
+			"startingConditions": [
+				"population_6",
+				"cold",
+				"farmland_rich",
+				"organics_common",
+				"ThreatResourceReducer",
+				"stealth_minefields",
+				"nanites_0"
+			],
+			"industries": [
+				"population",
+				["megaport", "fullerene_spool"],
+				"waystation",
+				["highcommand", "alpha_core"],
+				["heavybatteries", "alpha_core"],
+				["farming", "soil_nanites"],
+				["lightindustry", "biofactory_embryo"],
+				["wxkjz_b01", "alpha_core"],
+				["mining", "alpha_core"],
+				["cryosanctum", "alpha_core"]
+			],
+			"submarkets": ["open_market", "storage"],
+			"tariff": 0.3,
+			"name": "天津四 苔原殖民地"
+		},
+		{
+			"entities": ["nova_regula_after_toxic"],
+			"faction": "threat_qr",
+			"size": 6,
+			"startingConditions": [
+				"population_6",
+				"very_hot",
+				"no_atmosphere",
+				"ore_abundant",
+				"rare_ore_abundant",
+				"volatiles_diffuse",
+				"stealth_minefields",
+				"ThreatResourceReducer",
+				"ruins_extensive",
+				"nanites_1"
+			],
+			"industries": [
+				"population",
+				["mining", "mantle_bore"],
+				["refining", "catalytic_core"],
+				["megaport", "fullerene_spool"],
+				"waystation",
+				["highcommand", "cryoarithmetic_engine"],
+				["heavybatteries", "alpha_core"],
+				["orbitalworks", "pristine_nanoforge"],
+				["wxkjz_b01", "alpha_core"]
+			],
+			"submarkets": ["open_market", "storage", "ThreatSubmarket"],
+			"tariff": 0.3,
+			"name": "空心熔炉"
+		}
+	]
+}

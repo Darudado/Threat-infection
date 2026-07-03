@@ -1,0 +1,30 @@
+{
+  "variantId": "ZSMO554",
+  "hullId": "ZSMO554",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 47,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0003": "mark9",
+        "WS0005": "vulcan",
+        "WS0007": "vulcan",
+        "WS0009": "vulcan",
+        "WS0011": "vulcan",
+        "WS0013": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

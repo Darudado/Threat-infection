@@ -1,0 +1,79 @@
+{
+  "variantId": "wxbzz",
+  "hullId": "wxbzz",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fragment_swarm",
+    "fragment_coordinator",
+    "secondary_fabricator"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "voltaic_discharge",
+        "WS0010": "voltaic_discharge",
+        "WS0011": "voltaic_discharge",
+        "WS0012": "voltaic_discharge",
+        "WS0013": "voltaic_discharge",
+        "WS0014": "voltaic_discharge"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "voidblaster",
+        "WS0004": "voidblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavy_mass_driver",
+        "WS0006": "heavy_mass_driver",
+        "WS0007": "heavy_mass_driver",
+        "WS0008": "heavy_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "kinetic_fragments",
+        "WS0016": "kinetic_fragments",
+        "WS0017": "kinetic_fragments",
+        "WS0018": "kinetic_fragments",
+        "WS0019": "kinetic_fragments",
+        "WS0020": "kinetic_fragments"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "wxsd",
+        "WS0002": "wxsd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

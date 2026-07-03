@@ -1,0 +1,31 @@
+{
+  "hullName": "DP",
+  "hullId": "DPMO",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/DPMO.png",
+  "style": "THREAT",
+  "height": 434,
+  "width": 433,
+  "center": [219, 221.5],
+  "collisionRadius": 110.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "vastbulk",
+    "ThreatLinkedHull"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    72, -46.5,
+    34, -85.5,
+    -27.5, -86,
+    -75, -43.5,
+    -75, 43.5,
+    -27.5, 86,
+    34, 85.5,
+    72, 46.5
+  ]
+}

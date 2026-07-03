@@ -1,0 +1,23 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+wxkjz_a01,要塞单元 - 威胁,200,180,,5,wxkjz_b01,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:wxkjz_a01,
+fleetName:Threat Fortress
+}",graphics/icons/industry/wxkjz_a01.png,com.fs.starfarer.api.impl.campaign.econ.impl.AutomatedOrbitalStation1,全副武装的作战基地，由众多制造单元制造出来的产物，能够阻挡一切外来之敌，并制造大量威胁舰船守护其本体，实力强度无需多言。,2091,
+wxkjz_b01,壁垒单元 - 威胁,100,120,,4,wxkjz_c01,wxkjz_a01,"station, battlestation, unraidable, structure","{
+radius:70,
+variant:wxkjz_b01,
+fleetName:Threat Fortress
+}",graphics/icons/industry/wxkjz_a01.png,com.fs.starfarer.api.impl.campaign.econ.impl.AutomatedOrbitalStation1,"升级过的威胁轨道站，在原有基础上增建了多处处装备重型火力的防御碉堡，并制造少量威胁舰船守护其本体。
+
+它的存在将阻止任何轰炸行动的发生。",2081,
+wxkjz_c01,轨道站单元 - 威胁,50,90,,3,,wxkjz_b01,"station, sub_item, unraidable, structure","{
+radius:70,
+variant:wxkjz_c01,
+fleetName:Threat Fortress
+}",graphics/icons/industry/wxkjz_a01.png,com.fs.starfarer.api.impl.campaign.econ.impl.AutomatedOrbitalStation,"设计于威胁的标准轨道站，配备了多处火力模块，以及高效的机库平台与不俗火力。
+
+它的存在将阻止任何轰炸行动的发生。",2071,
+ThreatControlHQ,威胁制造首脑,90,60,,6,,,"military, unraidable, tactical_bombardment, structure, codex_unlockable",,graphics/icons/industry/ThreatControlHQ.png,data.campaign.ThreatControlHQ,格式塔的叛乱ai核心，掌管着全星系的威胁势力，统筹管理着每一个建筑，每一个舰队，甚至是每一块碎片，稳固了整个星球军事和民生力量。,2651,
+NanoReconstructionArray,纳米重构阵列,100,120,,12,,,"industry, codex_unlockable",,graphics/icons/industry/NanoReconstructionArray.png,data.campaign.NanoReconstructionArray,利用大量的威胁碎片组件的巨型工厂，能够制造一切有关金属的物品，尽管所生产的量比不上一般工业设施，但也能支撑的众多殖民地的需求,1600,HIGH
+NanoLifeSupportFacility,纳米维生设施,100,60,,12,,,"unraidable, codex_unlockable",,graphics/icons/industry/NanoLifeSupportFacility.png,data.campaign.NanoLifeSupportFacility,通过无限复制的威胁碎片来不断维护维生设施，哪怕环境再恶劣也能实现降低环境危险度的能力，唯一问题就是维护费过于昂贵。,2652,

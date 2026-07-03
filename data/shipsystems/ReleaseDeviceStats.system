@@ -1,0 +1,18 @@
+{
+	"id":"ReleaseDeviceStats",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.scripts.shipsystems.ReleaseDeviceStats",
+	"aiScript":"data.scripts.shipsystems.ai.ReleaseDeviceStatsAI",
+	
+	"useSound":"system_recall_device",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

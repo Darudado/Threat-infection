@@ -1,0 +1,61 @@
+{
+  "variantId": "HXMO555",
+  "hullId": "HXMO",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 46,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fragment_swarm",
+    "eccm",
+    "hardenedshieldemitter",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "dragon",
+        "WS0012": "atropos",
+        "WS0013": "atropos",
+        "WS0014": "atropos",
+        "WS0015": "atropos",
+        "WS0016": "atropos",
+        "WS0017": "atropos"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0002": "TBMO554"
+    },
+    {
+      "WS0001": "DPMO"
+    },
+    {
+      "WS0007": "YQMO554"
+    },
+    {
+      "WS0003": "ZSMO555"
+    },
+    {
+      "WS0004": "ZXMO555"
+    },
+    {
+      "WS0005": "SHMMO555"
+    },
+    {
+      "WS0006": "XHMMO555"
+    },
+    {
+      "WS0008": "ZZJMO555"
+    },
+    {
+      "WS0009": "YZJMO555"
+    }
+  ],
+  "wings": []
+}

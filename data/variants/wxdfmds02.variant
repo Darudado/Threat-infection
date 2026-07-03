@@ -1,0 +1,87 @@
+{
+  "variantId": "wxdfmds02",
+  "hullId": "wxdfmds02",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 36,
+  "fluxVents": 35,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "advancedshieldemitter",
+    "armoredweapons",
+    "fragment_swarm",
+    "fragment_coordinator",
+    "secondary_fabricator"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil",
+        "WS0002": "neoferric_quadcoil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "nmy_DEM",
+        "WS0009": "kinetic_fragments",
+        "WS0010": "kinetic_fragments",
+        "WS0021": "nmy_DEM"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "swarm_launcher",
+        "WS0006": "swarm_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "threatvpdriver",
+        "WS0004": "threatvpdriver",
+        "WS0016": "heavy_mass_driver",
+        "WS0017": "heavy_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "voltaic_cannon",
+        "WS0014": "voltaic_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "voltaic_discharge",
+        "WS0012": "voltaic_discharge",
+        "WS0015": "voltaic_discharge",
+        "WS0018": "voltaic_discharge",
+        "WS0019": "voltaic_discharge",
+        "WS0020": "voltaic_discharge"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0022y": "wxdfmds01"
+    }
+  ],
+  "wings": []
+}

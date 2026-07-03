@@ -1,0 +1,47 @@
+{
+  "id": "nm",
+  "specClass": "projectile",
+  "projectileSpecId": "nmzd",
+  "type": "BALLISTIC",
+  "mountTypeOverride": "HYBRID",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/nm.png",
+  "hardpointSprite": "graphics/weapons/nm.png",
+  "glowColor": [
+    183,
+    65,
+    13,
+    255
+  ],
+  "turretOffsets": [
+    15.5,
+    -6
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    30,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 15,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.24,
+    "particleCount": 17,
+    "particleColor": [
+      183,
+      95,
+      70,
+      255
+    ]
+  },
+  "fireSoundTwo": "disintegrator_fire"
+}

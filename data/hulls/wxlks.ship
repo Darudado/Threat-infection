@@ -1,0 +1,98 @@
+{
+  "hullName": "wxlks",
+  "hullId": "wxlks",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/wings/2.png",
+  "style": "THREAT",
+  "height": 53,
+  "width": 52,
+  "center": [26, 28.5],
+  "collisionRadius": 37,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "fragment_swarm",
+    "threat_hullmod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, 7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [7.5, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 7.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "THREAT"
+    },
+    {
+      "location": [-14, -7.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "THREAT"
+    },
+    {
+      "location": [-10.5, 10.5],
+      "length": 21.340874,
+      "width": 7.954159,
+      "angle": 161.5,
+      "contrailSize": 7.954159,
+      "style": "THREAT"
+    },
+    {
+      "location": [-10.5, -10.5],
+      "length": 21.340874,
+      "width": 7.954159,
+      "angle": -161.5,
+      "contrailSize": 7.954159,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    17.5, -5.5,
+    24, -22,
+    20, -27,
+    3, -14,
+    -8, -15,
+    -16.5, -5,
+    -29, -3,
+    -29, 3,
+    -16.5, 5,
+    -8, 15,
+    3, 14,
+    20, 27,
+    24, 22,
+    17.5, 5.5
+  ]
+}

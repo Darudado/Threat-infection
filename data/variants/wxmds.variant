@@ -1,0 +1,56 @@
+{
+  "variantId": "wxmds",
+  "hullId": "wxmds",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fragment_swarm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "voidblaster",
+        "WS0002": "voidblaster",
+        "WS0007": "kinetic_fragments",
+        "WS0008": "kinetic_fragments"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "devouring_swarm",
+        "WS0004": "devouring_swarm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "light_mass_driver",
+        "WS0006": "light_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "voltaic_discharge"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

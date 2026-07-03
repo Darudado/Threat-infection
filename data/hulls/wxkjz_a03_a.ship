@@ -1,0 +1,137 @@
+{
+  "hullName": "wxkjz_a03_a",
+  "hullId": "wxkjz_a03_a",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/kjz/kjz_005.png",
+  "style": "THREAT",
+  "height": 193,
+  "width": 289,
+  "center": [144.5, 96.5],
+  "collisionRadius": 183,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 168,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "automated",
+    "fragment_swarm",
+    "threat_hullmod",
+    "missile_reload",
+    "secondary_fabricator",
+    "fragment_coordinator"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 18.5,
+      "locations": [40.5, -28.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 29.5,
+      "locations": [18.5, 24.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 12.5,
+      "locations": [68.5, -58.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 38.5,
+      "locations": [18.5, 70.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 33,
+      "locations": [-49.5, 87.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [69.5, -125.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 9,
+      "locations": [69.5, -108.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 28,
+      "locations": [69.5, -91.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 38,
+      "locations": [-11.5, 78.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 54.5,
+      "locations": [-20.5, 96.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 68.5,
+      "locations": [-31.5, 114.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -1.5, -88.5,
+    53.5, -113,
+    57, -132.5,
+    77.5, -134,
+    75.5, -80,
+    84.5, -42.5,
+    29.5, 84,
+    -35, 131,
+    -72, 95,
+    -29, -1
+  ]
+}

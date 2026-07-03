@@ -1,0 +1,42 @@
+{
+  "id": "wxsd",
+  "specClass": "projectile",
+  "projectileSpecId": "threat_discharge_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "com.fs.starfarer.api.impl.combat.threat.VoltaicDischargeOnFireEffect",
+  "turretSprite": "graphics/weapons/wxsd_discharge_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/wxsd_discharge_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/wxsd_discharge_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/wxsd_discharge_hardpoint_glow.png",
+  "glowColor": [
+    94,
+    112,
+    105,
+    255
+  ],
+  "turretOffsets": [
+    7.5,
+    0,
+    1.5,
+    5,
+    1.5,
+    -5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "fireSoundTwo": "voltaic_discharge_fire"
+}

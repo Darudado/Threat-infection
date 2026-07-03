@@ -1,0 +1,184 @@
+{
+	id:"threat_qr",
+	"displayName":"侵染威胁",
+	"displayNameWithArticle":"侵染威胁",
+	"displayNameLong":"侵染威胁",
+	"displayNameLongWithArticle":"侵染威胁",
+	"entityNamePrefix":"",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"",
+	"displayNameIsOrAre":"",
+	
+	"logo":"graphics/factions/threat_qr01.png",
+	"crest":"graphics/factions/threat_qr02.png",
+	"shipNamePrefix":"",
+	
+	"color":[130,155,145,255],
+	"baseUIColor":[130,155,145,255],
+	
+	"showInIntelTab":true,
+	
+	"shipNameSources":{
+		"THREAT":1,
+	},
+	"names":{
+		"ai":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		"threat_bp":1,
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[""],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["threat_bp","threat"],
+		"hulls":[
+		"wxbb",
+		"wxmds",
+		"wxqy",
+		"wxhh",
+		"wxml",
+		"wxjt",
+		"wxct",
+		"wxdf",
+		"wxzgd",
+		"wxby",
+		"wxatls",
+		"wxey",
+		"wxfs",
+		"wxgs",
+		"wxsn",
+		"wxjx",
+		"wxxz",
+		"skirmish_unit",
+		"overseer_unit",
+		"assault_unit",
+		"hive_unit",
+		"standoff_unit",
+		"fabricator_unit",
+		"wxbzz",
+	
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["threat", "threat_weapons_bp"],
+		"fighters":[
+		"wxsg_wing",
+		"wxfyp_wing",
+		"wxsj_wing",
+		"wxlks_wing",
+		
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["threat", "threat_weapons_bp"],
+		"weapons":[
+			"nmy",
+			"nmy_DEM",
+			"threathurricane",
+			"threatvpdriver",
+			"wxcq",
+			"wxsd",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "threat"],
+		"hullMods":[
+		"fragment_coordinator233",
+		"TheatUniversalDecksUpgrade2",
+		"AdaptiveRegenerator",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":2,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":5,
+		
+		"aggression":2, # gets overridden by AI picker anyway
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+		],
+	},
+	#"shipRoles":{
+	#},
+	"illegalCommodities":[
+	],
+	"music":{
+		"encounter_hostile":"music_threat_encounter_hostile",
+	},	
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/cl_core.png",
+			"graphics/portraits/hl_core.png",
+		],
+		"standard_female":[
+			"graphics/portraits/cl_core.png",
+			"graphics/portraits/hl_core.png",
+			
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"buysAICores":true,
+		"AICoreValueMult":1,
+		"AICoreRepMult":2,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":false,
+		"fightToTheLast":true, 
+		"officersOnAutomatedDefenses":true,
+		"simulatorData":{
+		"showInSimulatorDevModeOnly":false,
+		"includeCivShipsWithFaction":true,
+		"noOfficers":false,
+		},
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"First Strike", 
+		"patrolMedium":"Second Strike", 
+		"patrolLarge":"Third Strike", 
+	},
+},

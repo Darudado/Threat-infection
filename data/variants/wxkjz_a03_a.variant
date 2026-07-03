@@ -1,0 +1,32 @@
+{
+  "variantId": "wxkjz_a03_a",
+  "hullId": "wxkjz_a03_a",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil",
+        "WS0002": "neoferric_quadcoil",
+        "WS0003": "swarm_launcher",
+        "WS0004": "swarm_launcher",
+        "WS0005": "voidblaster",
+        "WS0006": "voltaic_discharge",
+        "WS0007": "voltaic_discharge",
+        "WS0008": "voltaic_discharge",
+        "WS0009": "voltaic_discharge",
+        "WS0010": "voltaic_discharge",
+        "WS0011": "voltaic_discharge"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

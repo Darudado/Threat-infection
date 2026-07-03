@@ -1,0 +1,25 @@
+{
+	"id":"AutonomousFabricationSystem",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"com.fs.starfarer.api.impl.combat.threat.ConstructionSwarmSystemAI",
+	
+	"runScriptWhileIdle":true,
+	#"canUseWhileRightClickSystemOn":true,
+	
+	"statsScript":"com.fs.starfarer.api.impl.combat.threat.AutonomousFabricationSystemScript",
+	
+	"useSound":"system_construction_swarm",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":2500,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

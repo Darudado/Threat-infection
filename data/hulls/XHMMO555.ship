@@ -1,0 +1,29 @@
+{
+  "hullName": "XHM",
+  "hullId": "XHMMO555",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/000.png",
+  "style": "THREAT",
+  "height": 1,
+  "width": 1,
+  "center": [70, 248],
+  "collisionRadius": 1,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 2,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "always_detaches",
+    "reduced_explosion",
+    "ThreatLinkedHull",
+    "TheatUniversalDecksUpgrade2"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    32.5, -5.5,
+    32.5, 5.5,
+    42.5, -0.5
+  ]
+}

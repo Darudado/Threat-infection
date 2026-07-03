@@ -1,0 +1,27 @@
+{
+    "id": "EmergencyMeasures",
+    "governingAptitude": "combat",
+    "scope": "PILOTED_SHIP",
+    "compressHullmods": false,
+    "elite": true,
+    "effectGroups": [
+        {
+            "requiredSkillLevel": 1,
+            "effectBasedOnLevel": false,
+            "effects": [
+                {"type": "SHIP", "script": "data.scripts.skills.EmergencyMeasures$Level1"},
+                {"type": "CHARACTER_STATS", "script": "data.scripts.skills.EmergencyMeasures$Level2"},
+                {"type": "SHIP", "script": "data.scripts.skills.EmergencyMeasures$Level3"}
+            ]
+        },
+        {
+            "name": "Elite",
+            "requiredSkillLevel": 2,
+            "effectBasedOnLevel": false,
+            "effects": [
+                {"type": "SHIP", "script": "data.scripts.skills.EmergencyMeasures$Level4"},
+                 {"type": "SHIP", "script": "data.scripts.skills.EmergencyMeasures$Level5"}
+            ]
+        }
+    ]
+}

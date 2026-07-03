@@ -1,0 +1,46 @@
+{
+  "variantId": "wxdfmds01",
+  "hullId": "wxdfmds01",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "fluxbreakers",
+    "hardenedshieldemitter",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavy_mass_driver",
+        "WS0002": "heavy_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kinetic_fragments",
+        "WS0004": "kinetic_fragments"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "voltaic_discharge",
+        "WS0006": "voltaic_discharge",
+        "WS0007": "voltaic_discharge",
+        "WS0008": "voltaic_discharge"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

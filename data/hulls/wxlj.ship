@@ -1,0 +1,68 @@
+{
+  "hullName": "wxlj",
+  "hullId": "wxlj",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/wings/6.png",
+  "style": "THREAT",
+  "height": 18,
+  "width": 16,
+  "center": [8, 7],
+  "collisionRadius": 13,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 12.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "threat_hullmod",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [1.5, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [1.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4, 3],
+      "length": 12.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "THREAT"
+    },
+    {
+      "location": [-4, -3],
+      "length": 12.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    11, -1.5,
+    6, -6,
+    -2, -8,
+    -7.5, -8,
+    -4, -3.5,
+    -4, 3.5,
+    -7.5, 8,
+    -2, 8,
+    6, 6,
+    11, 1.5
+  ]
+}

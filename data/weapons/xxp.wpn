@@ -1,0 +1,25 @@
+{
+	"id":"xxp",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"mountTypeOverride":"HYBRID",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/xx.png",
+	"hardpointSprite":"graphics/weapons/xx.png",
+	"glowColor":[100,150,255,255],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":20.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.24,
+					   "particleCount":12,
+					   "particleColor":[100,150,255,255]},
+	"projectileSpecId":"xxppd",  # projectile that will be fired
+	"fireSoundTwo":"jgp",
+}

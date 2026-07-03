@@ -1,0 +1,48 @@
+{
+  "variantId": "ZXMO",
+  "hullId": "ZXMO",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "automated",
+    "armoredweapons",
+    "fragment_swarm",
+    "supercomputer",
+    "secondary_fabricator",
+    "heavyarmor",
+    "fragment_coordinator233"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil",
+        "WS0002": "neoferric_quadcoil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "voltaic_discharge",
+        "WS0006": "voltaic_discharge"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "voltaic_cannon",
+        "WS0005": "voltaic_cannon",
+        "WS0007": "voltaic_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

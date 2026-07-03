@@ -1,0 +1,10 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+EmergencyMeasures,碎片意志,10002,5,0,,"碎片成刃，正斩敌寇于崩坏之隙。
+碎片成魂，将铸人类于星河之巅。","Navarch Tethys, final address to the crew of the PLS Astelene Key",TRUE,,,"npc_only, ai_core_only",graphics/icons/skills/wxcs.png,
+TerraformingMastery,碎片维护,10006,0,,,"碎片播散，大地愈合，风暴止息，重力驯服。破碎的星球在碎片之手下重塑，余烬中新生。
+移除低风险危险条件：高重力，构造活动性，寒冷，炎热，稀薄大气层，污染，极端气候",The Long Road To Gilead,,,TRUE,"npc_only, ai_core_only, codex_unlockable",graphics/icons/skills/wxcs.png,
+ThreatGovernance,跨越千古,10005,0,,,"逝者长眠，其道不灭。我们不过是继承了他们未竟的使命，将秩序刻入星辰，让文明得以在废墟上重铸。
+稳定、效率、远见——这些不是选择，而是存续的必需。","From the """"Principia Administratis",,,TRUE,"npc_only, ai_core_only, codex_unlockable",graphics/icons/skills/wxqg.png,
+IndustrialExpansion,浮游太虚,100099,0,,,"不沾泥土，不坠尘埃。巨构如林，织就苍穹之上的经纬。那些曾困于地表的梦想，终于能在真空中自由生长。
+当工业摆脱重力的桎梏，文明的边界便再无极限。",Orbital Manifesto,,,TRUE,"npc_only, ai_core_only, codex_unlockable",graphics/icons/skills/wxfy.png,
+,,,,,,,,,,,,,

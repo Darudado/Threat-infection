@@ -1,0 +1,25 @@
+{
+  "hullName": "YZJ",
+  "hullId": "YZJMO555",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/000.png",
+  "style": "THREAT",
+  "height": 1,
+  "width": 1,
+  "center": [38.5, 199.5],
+  "collisionRadius": 2,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 1.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    6, -1.5,
+    6, 1.5,
+    9.5, -0.5
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "variantId": "YQMO",
+  "hullId": "YQMO",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "automated",
+    "armoredweapons",
+    "fragment_swarm",
+    "heavyarmor",
+    "secondary_fabricator",
+    "supercomputer",
+    "fragment_coordinator233"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil",
+        "WS0002": "neoferric_quadcoil",
+        "WS0003": "heavy_mass_driver",
+        "WS0004": "heavy_mass_driver",
+        "WS0005": "voltaic_discharge",
+        "WS0006": "voltaic_discharge",
+        "WS0007": "devouring_swarm",
+        "WS0017": "devouring_swarm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "kinetic_fragments",
+        "WS0009": "kinetic_fragments",
+        "WS0010": "kinetic_fragments",
+        "WS0011": "kinetic_fragments",
+        "WS0012": "kinetic_fragments",
+        "WS0013": "kinetic_fragments",
+        "WS0014": "kinetic_fragments",
+        "WS0015": "kinetic_fragments"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

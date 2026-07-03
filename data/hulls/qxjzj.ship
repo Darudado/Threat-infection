@@ -1,0 +1,77 @@
+{
+  "hullName": "qxjzj",
+  "hullId": "qxjzj",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/wings/qx.png",
+  "style": "HIGH_TECH",
+  "height": 53,
+  "width": 54,
+  "center": [27, 21.5],
+  "collisionRadius": 35,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FluxCapacitorOvercharge",
+    "HeavyArmorTurrets",
+    "StabilizedShieldArray"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [5.5, 16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [5.5, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [5.5, 19.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [5.5, -19.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 10.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, -10.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": []
+}

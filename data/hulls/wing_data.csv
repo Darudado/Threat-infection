@@ -1,0 +1,8 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+wxsg_wing,wxsg_Bomber,"bomber, threat, bomber5, auto_fighter, merc, codex_unlockable,threat_weapons_bp",3,0.25,10,25,V,4000,2500,300,1,BOMBER,轰炸无人机,20,50000,,,,,,,,,,,,,21.5
+wxfyp_wing,wxfyp_Fighter,"interceptor, threat,support3, auto_fighter, merc, codex_unlockable,threat_weapons_bp,stay_in_front_of_ship",3,0.25,8,20,V,0,2000,,2,SUPPORT,无人支援机,16,30000,,,,,,,,,,,,,2
+wxsj_wing,wxsj_Interceptor,"interceptor, threat, interceptor5, auto_fighter, merc, codex_unlockable,threat_weapons_bp",2,0.5,5,12,CLAW,4000,200,750,5,INTERCEPTOR,无人截击机,12,10000,,,,,,,,,,,,,22
+wxlks_wing,wxlks_Fighter,"fighter, threat, fighter5, auto_fighter, merc, codex_unlockable,threat_weapons_bp",2,0.5,7,15,V,4000,500,,4,FIGHTER,无人战斗机,14,20000,,,,,,,,,,,,,23
+wxyq_wing,wxyq_Fighter,"fighter, threat, fighter6, auto_fighter, merc, codex_unlockable,threat_weapons_bp",3,0.25,10,23,BOX,4000,800,0,1,FIGHTER,召唤无人机,20,50000,,,,,,,,,,,,,21.5
+wxlj_wing,wxlj_Fighter,"fighter, threat, fighter8, auto_fighter, merc, codex_unlockable,no_drop, no_sell",0,0.5,2,12,V,4000,200,750,2,INTERCEPTOR,无人截击机,12,10000,,,,,,,,,,,,,22
+qxjzj_wing,qxjzj_Fighter,"fighter, fighter5, merc, codex_unlockable,no_drop, no_sell",0,0.5,7,15,V,4000,500,,5,FIGHTER,无人战斗机,12,20000,,,,,,,,,,,,,23

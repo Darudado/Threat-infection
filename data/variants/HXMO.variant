@@ -1,0 +1,75 @@
+{
+  "variantId": "HXMO",
+  "hullId": "HXMO",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "chassis_storage",
+    "fragment_coordinator233",
+    "fragment_swarm",
+    "heavyarmor",
+    "secondary_fabricator",
+    "supercomputer"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "swarm_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "devouring_swarm",
+        "WS0013": "devouring_swarm",
+        "WS0014": "devouring_swarm",
+        "WS0015": "devouring_swarm",
+        "WS0016": "devouring_swarm",
+        "WS0017": "devouring_swarm"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "DPMO"
+    },
+    {
+      "WS0002": "TBMO"
+    },
+    {
+      "WS0003": "ZSMO"
+    },
+    {
+      "WS0004": "ZXMO"
+    },
+    {
+      "WS0005": "SHMMO"
+    },
+    {
+      "WS0006": "XHMMO"
+    },
+    {
+      "WS0007": "YQMO"
+    },
+    {
+      "WS0008": "ZZJMO"
+    },
+    {
+      "WS0009": "YZJMO"
+    }
+  ],
+  "wings": [
+    "wxfyp_wing",
+    "wxlks_wing",
+    "wxlks_wing",
+    "wxfyp_wing"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmall":{
+	"wxbb":10,
+	"wxby":10,
+	},
+	"combatMedium":{
+	"wxmds":9,
+	"wxct":9,
+	},
+	"combatLarge":{
+	"wxhh":7,
+	"wxzgd":7,
+	"wxey":6,
+	"wxxz":6,
+	},
+	"combatCapital":{
+	"wxatls":8,
+	"wxdf":6,
+	"wxfs":6,
+	"wxgs":6,
+	"wxbzz":5,
+	},
+	"carrierMedium":{
+	"wxml":8,
+	},
+	"carrierLarge":{
+	"wxjt":7,
+	},
+	"combatFreighterMedium":{
+	"wxqy":5,
+	},
+	"civilianRandom":{
+		
+	},
+	"freighterSmall":{
+	"wxsn":5,		
+	},
+	"freighterMedium":{
+	"wxjx":5,	
+	},
+	"linerMedium":{
+	    
+	},
+	"linerLarge":{
+		
+	},
+	"phaseSmall":{
+		
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	
+	},
+}

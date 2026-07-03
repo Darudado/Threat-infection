@@ -1,0 +1,119 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	
+	"marketSpawnWeight":0.1,
+
+	
+	"rebelFleetSuffix":"反叛威胁机械",
+	
+    "dropPrisoners":false,
+    "hostileToAll":2,
+    "noRandomizeRelations":true,
+    "noSyncRelations":false,
+	
+	"morality":"amoral",
+	
+	"diplomacyTraits":["predatory","irredentist","foreverwar","lowprofile","helps_allies"],
+	
+	"difficultyString": "easy",
+
+	"alignments":{"technocratic":0.5,"militarist":0.5,"diplomatic":-1,"ideological":0.5},
+	
+	"colonyExpeditionChance":0.1,
+    "maxColonyDistance":5,
+	
+	"vengeanceLevelNames":["裁决","扫荡","灭绝"],
+    "vengeanceFleetNames":["裁决舰队","扫荡舰队","灭绝舰队"],
+    "vengeanceFleetNamesSingle":["一支 裁决舰队","一支 扫荡舰队","一支 灭绝舰队"],
+	
+	"factionsDisliked": [
+		"player",
+		"tutorial",
+		"remnant",
+		"pirates",
+		"neutral",
+		"independent",
+		"hegemony",
+		"tritachyon",
+		"luddic_church",
+		"luddic_path",
+		"persean",
+		"diktat"
+	],
+	
+	"startRelationships": {
+		"player": -0.7,
+		"tutorial": -0.7,
+		"remnant": -0.7,
+		"pirates": -0.7,
+		"neutral": -0.7,
+		"independent": -0.7,
+		"hegemony": -0.7,
+		"tritachyon": -0.7,
+		"luddic_church": -0.7,
+		"luddic_path": -0.7,
+		"persean": -0.7,
+		"diktat": -0.7
+	},
+	
+	"maxRelationships": {
+		"tutorial": -0.6,
+		"remnant": -0.6,
+		"pirates": -0.6,
+		"neutral": -0.6,
+		"independent": -0.6,
+		"hegemony": -0.6,
+		"tritachyon": -0.6,
+		"luddic_church": -0.6,
+		"luddic_path": -0.6,
+		"persean": -0.6,
+		"diktat": -0.6
+	},
+	
+    "startShipsCombatSmall":[["wxct","wxbb","wxby","wxsn",],
+	["wxmds","wxby","wxby","wxsn",],
+	],
+	
+    "startShipsCombatLarge":[["wxzgd","wxqy","wxmds","wxjx","wxbb"],
+	["wxhh","wxqy","wxct","wxjx","wxby"],	
+	["wxgs","wxbb","wxjx","wxct"],
+	["wxdf","wxby","wxjx","wxmds"],
+	["wxatls","wxct","wxjx","wxmds"],
+	],
+	
+    "startShipsCarrierSmall":[["wxml","wxbb","wxsn","wxby"]],
+	
+    "startShipsCarrierLarge":[["wxjt","wxby","wxjx","wxmds"]],
+	
+    "startShipsSuper":[["wxey","wxsn",],
+	["wxfs","wxjx",],
+	["wxdfmds02","wxjx",],
+	["wxggwb","wxsn",],
+	["wxxzj_xw","wxjx",],
+	],
+	
+	"defenceStations":[
+        {"ids":["wxkjz_c01","wxkjz_b01","wxkjz_a01"]}, 
+    ],
+	
+	 "startSpecialItems":[
+        [["threat_package",""]],
+        [["threat_weapons_package",""]],
+    ],
+	
+	"industrySeeds":[
+        {"id":"orbitalworks","mult":0.1},
+        {"id":"lightindustry","mult":0.1},
+        {"id":"refining","mult":0.1},
+        {"id":"fuelprod","mult":0.1}
+    ],
+	
+	"bonusSeeds":[
+        {"id":"nanoforge_pristine","count":1},
+        {"id":"aiCore_station","count":2,"mult":0.2},
+        {"id":"aiCore_military","mult":0.4},
+        {"id":"aiCore_heavyindustry","count":1},
+        {"id":"aiCore_any","mult":1.5}
+    ]
+}

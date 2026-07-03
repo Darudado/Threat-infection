@@ -1,0 +1,91 @@
+{
+  "hullName": "ZS",
+  "hullId": "ZSMO555",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/000.png",
+  "style": "THREAT",
+  "height": 1,
+  "width": 1,
+  "center": [90.5, 268],
+  "collisionRadius": 3,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 2,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-139, -2122.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-174, -2156.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -141,
+      "locations": [-222, -2165.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -135,
+      "locations": [-130.5, -2075]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -47,
+      "locations": [-186, -2183]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -47,
+      "locations": [-147, -2149.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -47,
+      "locations": [-113, -2110.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    14, -1,
+    14, 1,
+    18.5, -1.5
+  ]
+}

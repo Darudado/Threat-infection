@@ -1,0 +1,72 @@
+{
+    "id": "zzldd",
+    "specClass": "missile",
+    "missileType": "MISSILE",
+    "onHitEffect": "data.scripts.weapons.BlueRiftTorpedoEffect",
+    "onFireEffect": "data.scripts.weapons.BlueRiftTorpedoEffect",
+    "sprite": "graphics/missiles/zzldd.png",
+	"renderHints": [],
+    "size": [10, 12],
+    "center": [7, 8],
+    "collisionRadius": 10,
+    "collisionClass": "MISSILE_NO_FF",
+    "explosionColor": [70, 130, 240, 255],
+    "explosionRadius": 250,
+    "explosionSpec": {
+        "duration": 0.1,
+        "radius": 175,
+        "coreRadius": 75,
+        "collisionClass": "HITS_SHIPS_AND_ASTEROIDS",
+        "collisionClassByFighter": "HITS_SHIPS_AND_ASTEROIDS",
+        "particleSizeMin": 5.0,
+        "particleSizeRange": 3.0,
+        "particleDuration": 1,
+        "particleCount": 0,
+        "particleColor": [100, 170, 255, 255]
+    },
+    "noCollisionWhileFading": true,
+    "useHitGlowWhenDealingDamage": false,
+    "useHitGlowWhenDestroyed": true,
+    "dudProbabilityOnFlameout": 0,
+    "fizzleOnReachingWeaponRange": true,
+    "armingTime": 0,
+    "flameoutTime": 0.2,
+    "noEngineGlowTime": 0.2,
+    "fadeTime": 0.2,
+    "glowColor": [100, 150, 255, 75],
+    "glowRadius": 125,
+    "passThroughMissiles": true,
+    "passThroughFighters": true,
+    "applyOnHitEffectWhenPassThrough": false,
+    "engineSpec": {
+        "turnAcc": 500,
+        "turnRate": 100,
+        "acc": 500,
+        "dec": 500
+    },
+    "engineSlots": [
+        {
+            "id": "ES1",
+            "loc": [0, 0],
+            "style": "CUSTOM",
+            "styleSpec": {
+                "mode": "QUAD_STRIP",
+                "engineColor": [70, 130, 240, 0],
+                "glowSizeMult": 2.5,
+                "glowAlternateColor": [0, 100, 255, 255],
+                "contrailDuration": 2,
+                "contrailWidthMult": 1.5,
+                "contrailWidthAddedFractionAtEnd": 1,
+                "contrailMinSeg": 5,
+                "contrailMaxSpeedMult": 0,
+                "contrailAngularVelocityMult": 0.5,
+                "contrailSpawnDistMult": 0,
+                "contrailColor": [70, 130, 240, 50],
+                "type": "GLOW"
+            },
+            "width": 10.0,
+            "length": 50.0,
+            "angle": 180.0
+        }
+    ]
+}

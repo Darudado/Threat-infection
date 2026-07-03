@@ -1,0 +1,17 @@
+{
+    "id": "bq_zd",
+    "specClass": "projectile",
+	"onHitEffect":"data.scripts.weapons.ShieldPenetrationEffect",
+    "spawnType": "BALLISTIC",
+    "collisionClass": "PROJECTILE_FF",
+    "collisionClassByFighter": "PROJECTILE_FIGHTER",
+    "length": 35.0,
+    "hitGlowRadius": 72,                
+    "width": 8.0,
+    "fadeTime": 0.35,                    
+    "fringeColor": [200, 210, 255, 180], 
+    "coreColor": [255, 255, 255, 230],   
+    "textureScrollSpeed": 96.0,          
+    "pixelsPerTexel": 5.0,
+    "bulletSprite": "graphics/missiles/shell_hephag.png"
+}

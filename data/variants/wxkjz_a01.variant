@@ -1,0 +1,84 @@
+{
+  "variantId": "wxkjz_a01",
+  "hullId": "wxkjz_a01",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "wxcq",
+        "WS0002": "wxcq",
+        "WS0003": "wxcq",
+        "WS0004": "wxcq",
+        "WS0005": "wxcq",
+        "WS0006": "wxcq",
+        "WS0007": "wxcq",
+        "WS0008": "wxcq"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0014": "wxkjz_a02_a"
+    },
+    {
+      "WS0016": "wxkjz_a02_b"
+    },
+    {
+      "WS0009": "wxkjz_a02_b"
+    },
+    {
+      "WS0010": "wxkjz_a02_a"
+    },
+    {
+      "WS0011": "wxkjz_a02_a"
+    },
+    {
+      "WS0012": "wxkjz_a02_b"
+    },
+    {
+      "WS0013": "wxkjz_a02_b"
+    },
+    {
+      "WS0015": "wxkjz_a02_a"
+    },
+    {
+      "WS0024": "wxkjz_a03_a"
+    },
+    {
+      "WS0023": "wxkjz_a03_b"
+    },
+    {
+      "WS0017": "wxkjz_a03_b"
+    },
+    {
+      "WS0018": "wxkjz_a03_a"
+    },
+    {
+      "WS0019": "wxkjz_a03_a"
+    },
+    {
+      "WS0020": "wxkjz_a03_b"
+    },
+    {
+      "WS0021": "wxkjz_a03_b"
+    },
+    {
+      "WS0023": "wxkjz_a03_b"
+    },
+    {
+      "WS0024": "wxkjz_a03_a"
+    },
+    {
+      "WS0022": "wxkjz_a03_a"
+    }
+  ],
+  "wings": []
+}

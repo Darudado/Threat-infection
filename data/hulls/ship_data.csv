@@ -1,0 +1,97 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
+#舰载机,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+质量,wxsg,,威胁拓展,fastmissileracks,,600,100,400,,100,0,,200,240,200,40,120,30,OMNI,,180,0,0.8,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,116
+探针,wxfyp,,威胁拓展,temporalshell,,500,50,600,,60,0,,160,300,250,90,180,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,103.1
+奇点,wxsj,,威胁拓展,flarelauncher_fighter,,350,30,200,,50,0,,335,500,400,90,270,15,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,114
+暗星,wxlks,,威胁拓展,ammofeed,,400,60,350,,55,0,,220,350,350,100,240,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,115
+恒星,wxyq,,威胁拓展,wxthreat_drone,,2000,100,500,,110,0,,220,260,220,50,130,30,OMNI,,360,0,0.8,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,118
+卫星,wxlj,,威胁拓展,flarelauncher_active,,300,30,250,,60,0,,220,350,350,100,240,15,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,114.1
+斯卡拉维德舰载机,qxjzj,,异宙战斗机,skimmer_drone,,400,60,350,,55,0,,220,350,350,100,240,30,OMNI,,240,0,0.6,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,115
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#威胁boss,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+威胁主宰,HXMO,作战要塞,威胁拓展,drone_threat,800,15000,1500,12000,10000,1200,230,4,50,15,15,10,10,2000,OMNI,,360,0.5,1,,,0,0,5000,4000,20,150,6,950000,4,,,,50,50,29,125,35,150,59,250,"SHIP_WITH_MODULES,UNBOARDABLE","hist3t, req_military, auto_rec,threat, codex_unlockable,no_dealer, limited_tooltip_if_locked",,,,0.4,2,3,,507
+底盘,DPMO,主体结构,威胁拓展,,1,5000,1000,0,2500,100,0,,0,0,0,10,10,1250,NONE,,0,0,0,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNDER_PARENT, UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_no_status_bar,,,,1,2,4,,2100
+引擎,YQMO,引擎模块,威胁拓展,mine_strike_station,1,20000,2000,15000,15000,1000,200,,0,0,0,10,10,2500,NONE,,0,0,0,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE", threat,,,,1,2,4,,2100
+左火力,ZSMO,火炮模块,威胁拓展,AutonomousFabricationSystem,1,15000,1500,12000,12000,1000,200,,0,0,0,10,10,500,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," no_sell, no_drop, no_drop_salvage, restricted, threat, threat_fabricator,auto_rec,",,,,0.5,2,3,,2100
+右火力,ZXMO,火炮模块,威胁拓展,AutonomousFabricationSystem,1,15000,1200,12000,12000,1000,200,,0,0,0,10,10,500,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," no_sell, no_drop, no_drop_salvage, restricted,  threat, threat_fabricator,auto_rec,",,,,0.5,2,3,,2100
+左航母,SHMMO,机库模块,威胁拓展,AutonomousFabricationSystem,1,10000,1200,10000,10000,500,150,2,0,0,0,10,10,350,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","  no_sell, no_drop, no_drop_salvage, restricted, threat, threat_fabricator,auto_rec,",,,,0.4,2,2,,2100
+右航母,XHMMO,机库模块,威胁拓展,AutonomousFabricationSystem,1,10000,1200,10000,10000,500,150,2,0,0,0,10,10,350,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","  no_sell, no_drop, no_drop_salvage, restricted, threat, threat_fabricator,auto_rec,",,,,0.4,2,2,,2100
+主火力,TBMO,火力堡垒,威胁拓展,ammofeed,1,25000,2500,15000,10000,1500,300,,0,0,0,10,10,1000,FRONT,,180,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE,UNDER_PARENT","  no_sell, no_drop, no_drop_salvage, restricted, threat,",,,,1,2,4,,2100
+,ZZJMO,空间站装甲,,,1,15000,1500,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," no_sell, no_drop, no_drop_salvage, restricted, module_hull_bar_only",,,,1,2,3,,2051
+,YZJMO,空间站装甲,,,1,15000,1500,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," no_sell, no_drop, no_drop_salvage, restricted, module_hull_bar_only",,,,1,2,3,,2051
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,ZSMO555,模块接口,威胁拓展,,,1000,0,0,0,0,0,,0,0,0,5,5,1,NONE,,60,0.4,1,,,0,0,0,0,1,0,,1000000,,1,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","no_sell, no_drop, no_drop_salvage, restricted",,0.5,1,2,,502.11,,
+,ZXMO555,模块接口,威胁拓展,,,1000,0,0,0,0,0,,0,0,0,5,5,1,NONE,,60,0.4,1,,,0,0,0,0,1,0,,1000000,,1,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","no_sell, no_drop, no_drop_salvage, restricted",,0.5,1,2,,502.11,,
+,SHMMO555,模块接口,威胁拓展,,,1000,0,0,0,0,0,,0,0,0,5,5,1,NONE,,60,0.4,1,,,0,0,0,0,1,0,,1000000,,1,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","no_sell, no_drop, no_drop_salvage, restricted",,0.5,1,2,,502.11,,
+,XHMMO555,模块接口,威胁拓展,,,1000,0,0,0,0,0,,0,0,0,5,5,1,NONE,,60,0.4,1,,,0,0,0,0,1,0,,1000000,,1,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","no_sell, no_drop, no_drop_salvage, restricted",,0.5,1,2,,502.11,,
+,ZZJMO555,模块接口,威胁拓展,,,1000,0,0,0,0,0,,0,0,0,5,5,1,NONE,,60,0.4,1,,,0,0,0,0,1,0,,1000000,,1,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","no_sell, no_drop, no_drop_salvage, restricted",,0.5,1,2,,502.11,,
+,YZJMO555,模块接口,威胁拓展,,,1000,0,0,0,0,0,,0,0,0,5,5,1,NONE,,60,0.4,1,,,0,0,0,0,1,0,,1000000,,1,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","no_sell, no_drop, no_drop_salvage, restricted",,0.5,1,2,,502.11,,
+,ZSMO554,火炮模块,威胁拓展,construction_swarm,1,15000,1500,12000,12000,1000,200,,0,0,0,10,10,500,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.5,2,3,,2100
+,ZSMO553,火炮模块,威胁拓展,AutonomousFabricationSystem,1,15000,1500,12000,12000,1000,200,,0,0,0,10,10,500,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.5,2,3,,2100
+,ZXMO554,火炮模块,威胁拓展,construction_swarm,1,15000,1200,12000,12000,1000,200,,0,0,0,10,10,500,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.5,2,3,,2100
+,ZXMO553,火炮模块,威胁拓展,AutonomousFabricationSystem,1,15000,1200,12000,12000,1000,200,,0,0,0,10,10,500,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.5,2,3,,2100
+,SHMMO554,机库模块,威胁拓展,construction_swarm,1,10000,1200,10000,10000,500,150,1,0,0,0,10,10,350,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.4,2,2,,2100
+,SHMMO553,机库模块,威胁拓展,AutonomousFabricationSystem,1,10000,1200,10000,10000,500,150,2,0,0,0,10,10,350,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.4,2,2,,2100
+,XHMMO554,机库模块,威胁拓展,construction_swarm,1,10000,1200,10000,10000,500,150,1,0,0,0,10,10,350,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.4,2,2,,2100
+,XHMMO553,机库模块,威胁拓展,AutonomousFabricationSystem,1,10000,1200,10000,10000,500,150,2,0,0,0,10,10,350,FRONT,,90,0.5,0.8,,,0,0,0,0,1,0,,1,,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE"," threat, threat_fabricator,auto_rec,",,,,0.4,2,2,,2100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#新添威胁船,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#护卫,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+警戒单位,wxbb,威胁护卫舰,威胁拓展,displacer,5,1300,150,2500,2250,180,55,,110,120,100,45,90,100,OMNI,,150,0.8,1,,,0,0,40,25,1,25,10,10000,8,10,240,0.25,7,7,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.5,2,2,,208
+群涌单位,wxby,威胁护卫舰,威胁拓展,entropyamplifier,8,1000,150,2500,2813,225,80,1,180,200,175,90,270,200,OMNI,,180,0.6,0.8,,,0,0,30,20,1,20,11,36000,10,20,280,0.25,8,8,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.5,2,2,,206
+遏止单位,wxjsz,护卫舰,威胁拓展,fortressshield,,1000,150,2000,1500,100,30,,250,400,300,60,90,200,FRONT,,180,0.8,1,,,0,0,,,,,,,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,,0.5,2,2,,214
+至高单位,wxggwb,威胁超级护卫舰,威胁拓展,IntegratedNmySystemStats,16,3000,300,4000,625,150,50,,200,200,150,90,360,100,PHASE,ExcelsiorPhaseStat_Independent,,,,0,-0.25,0,0,10,20,1,20,11,94000,10,40,120,0.25,20,20,,,,,,,"UNBOARDABLE,PHASE","threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked",,,,0,2,2,,220
+至高单位,wxggwb_sj,威胁超级护卫舰,威胁拓展,IntegratedNmySystemStats,16,3000,300,4000,625,150,50,,200,200,150,90,360,100,PHASE,ExcelsiorPhaseStat_Independent,,,,0,-0.25,0,0,10,20,1,20,11,94000,10,40,120,0.25,20,20,,,,,,,"UNBOARDABLE,PHASE","threat, threat_combat,no_autofit, codex_unlockable, limited_tooltip_if_locked",,,,0,2,2,,220
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#驱逐,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+掠袭单位,wxmds,威胁驱逐舰,威胁拓展,displacer,12,2500,250,6500,6667,400,130,,100,90,60,40,100,300,OMNI,,180,0.6,0.8,,,0,0,50,40,2,20,9,60000,5,20,300,0.25,12,12,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.7,2,3,,309
+重击单位,wxct,威胁驱逐舰,威胁拓展,ammofeed,10,4500,400,4000,4167,300,115,,90,60,40,30,60,400,FRONT,,300,0.8,1,,,0,0,100,60,2,30,9,40000,5,12,420,0.25,13,13,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.5,2,3,,300
+预言单位,wxxzj,威胁超级驱逐,威胁拓展,Threatshell,14,5500,600,9000,,850,100,,85,60,50,90,120,500,FRONT,,225,0.25,0.8,,,0,0,0,0,3,,9,190000,7,21,300,0.2,25,25,,,,0.75,2,2,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked",,,,,,,,
+预言单位（相位）,wxxzj_xw,威胁超级驱逐,威胁拓展,PhasedDriftStats,14,5500,600,9000,,850,100,,85,60,50,90,120,500,PHASE,phasecloak,,,,0.05,0.04,0,0,0,0,3,,9,190000,7,21,300,0.2,25,25,,,,0.75,2,2,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked",,,,,,,,
+预言单位（赏金）,wxxzj_sj,威胁超级驱逐,威胁拓展,Threatshell,14,5500,600,9000,,850,100,,85,60,50,90,120,500,FRONT,,300,0.8,1,,,0,0,0,0,3,,9,190000,7,21,300,0.2,25,25,,,,0.75,2,2,UNBOARDABLE,"threat, threat_combat,codex_unlockable, limited_tooltip_if_locked，no_autofit",,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#巡洋,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+顶点单位,wxzgd,威胁巡洋舰,威胁拓展,energy_lash,14,8000,550,11000,14000,700,200,,60,40,30,20,25,2000,FRONT,,360,0.6,0.8,,,0,0,400,200,2,100,8,200000,3,15,420,0.25,23,23,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.6,2,3,,404
+屏障单位,wxqy,威胁巡洋舰,威胁拓展,fortressshield,10,9000,900,7000,6000,300,150,1,40,15,10,12,6,1500,OMNI,,120,0.8,1,,,0,0,600,180,3,60,7,70000,5,10,540,0.25,20,20,,,,,,,UNBOARDABLE,"threat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.4,2,3,,402
+空袭单位,wxhh,威胁巡洋舰,威胁拓展,threat_strike,16,7000,800,10000,12000,600,190,,60,35,30,20,25,2000,OMNI,,270,0.6,0.8,,,0,0,120,90,3,30,9,140000,5,15,540,0.25,25,25,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.5,2,3,,413
+蜂群单位,wxml,威胁航母,威胁拓展,RangeDroneStrikeSystem,15,9000,1000,5000,4000,300,140,3,45,20,10,10,10,2000,OMNI,,150,0.8,1,,,0,0,100,60,4,15,8,125000,4,12,420,0.25,23,23,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.4,2,3,,410
+寻猎单位,wxey,威胁相位巡洋舰,威胁拓展,threatmine_strike,22,7000,900,10000,18000,850,145,,75,55,40,20,25,1200,PHASE,phasecloak,,,,0.05,0.05,0,0,120,150,3,50,8,250000,4,30,420,0.25,30,30,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.5,2,3,,406
+智慧单位,wxxz,威胁巡洋舰,威胁拓展,PhaseDashSystem,40,7000,900,11000,25000,900,180,2,70,50,45,30,35,2000,OMNI,,260,0.8,1,,,0,0,40,150,3,50,11,100000,3,15,420,0.25,25,25,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.5,2,3,,416
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#战列,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+阵列单位,wxjt,威胁航空战列舰,威胁拓展,ReleaseDeviceStats,28,16000,1400,14000,12500,900,350,4,30,15,15,6,6,3500,FRONT,,180,0.8,1,,,0,0,300,300,15,20,7,375000,3,12,720,0.25,37,37,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.4,2,4,,507
+核心单位,wxdf,威胁战列舰,威胁拓展,drone_station_threat,30,17000,1400,25000,31250,1400,400,,30,15,10,5,5,3500,NONE,,0,0,0,,,0,0,300,300,1,1000,7,500000,4,20,720,0.25,42,42,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.6,2,4,,504
+焦土单位,wxatls,威胁战列舰,威胁拓展,ammofeed,18,11000,1000,12000,8750,900,250,,30,8,4,4,2,4000,OMNI,,60,0.8,1,,,0,0,200,400,10,40,7,150000,2,20,720,0.25,37,37,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.7,2,4,,502.5
+刀锋单位,wxfs,威胁战列舰,威胁拓展,Threatshell,30,17000,1300,25000,37500,1400,360,,40,30,20,7,10,3500,OMNI,,270,0.6,0.8,,,0,0,250,400,10,40,8,500000,3,15,720,0.25,40,40,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.4,2,4,,509
+攻坚单位,wxgs,威胁战列舰,威胁拓展,IntegratedSystemStats,30,18000,1550,22000,15000,1200,400,,25,10,10,4,4,3500,FRONT,,180,0.8,1,,,0,0,300,400,15,27,7,350000,3,12,720,0.25,40,40,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.4,2,4,,500.1
+编制单位,wxbzz,威胁编织舰,威胁拓展,AutonomousFabricationSystem,150,30000,2000,20000,25000,1000,250,,40,20,15,6,9,10000,OMNI,,150,0.4,1.2,,,0,0,2000,1000,1,1000,8,500000,4,20,720,0.25,50,50,,,,,,,UNBOARDABLE,"threat, threat_fabricator,auto_rec, codex_unlockable, limited_tooltip_if_locked, full_cr_recovery,threat_bp",,,,0.5,3,4,,515
+议会单位,wxmk,威胁无畏舰,威胁拓展,PhasedDriftStats,35,22000,1600,22000,37500,1500,400,4,40,12,8,4,2,5050,FRONT,,120,0.5,1,,,0,0,550,400,11,,7,525000,2,25,720,0.075,65,65,,,,,,,UNBOARDABLE,"threat, threat_combat,auto_rec, codex_unlockable, limited_tooltip_if_locked",,,,0.6,2,4,,529
+议会单位,wxmk_sj,威胁无畏舰,威胁拓展,PhasedDriftStats,35,22000,1600,22000,37500,1500,400,4,40,12,8,4,2,5050,FRONT,,120,0.5,1,,,0,0,550,400,11,,7,525000,2,25,720,0.075,65,65,,,,,,,UNBOARDABLE,"threat, threat_combat,no_autofit, codex_unlockable, limited_tooltip_if_locked",,,,0.6,2,4,,529
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#特殊舰船,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+悖论泰坦,bltt,异宙无畏舰,威胁拓展,CustomDecorativeSystemScript,50,30000,2000,25000,25000,1400,150,4,40,17,17,5,5,10000,OMNI,,360,0.4,0.6,,,600,1500,600,600,10,30,7,1000000,4,20,720,0.35,60,60,,,,,,,UNBOARDABLE,"no_sell, no_drop, restricted",,,,0.5,2,4,,514
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#民用船,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+搬运单位,wxsn,威胁货舰,威胁拓展,flarelauncher_active,5,4000,150,1700,1167,100,35,,50,25,20,15,7,400,OMNI,,120,0.5,1,,,0,200,500,120,2,40,8,20000,5,20,240,0.25,3,3,,,,,,,UNBOARDABLE,"threat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.6,2,3,,304
+细胞单位,wxjx,威胁油货一体舰,威胁拓展,flarelauncher,7,7000,500,3000,2000,150,70,,40,20,10,10,10,1500,FRONT,,150,0.5,1,,,0,1000,1000,800,4,30,7,60000,3,20,480,0.25,6,6,,,,,,,UNBOARDABLE,"threat,auto_rec, codex_unlockable, limited_tooltip_if_locked,threat_bp",,,,0.6,2,3,,411
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#新添威胁模块船,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+轰炸模块,wxdfmds01,巡洋舰,威胁拓展,threat_strike,12,5000,400,7000,6667,400,130,,100,90,60,40,100,300,OMNI,,180,0.4,0.8,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,12,12,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE","  no_sell, no_drop, no_drop_salvage, restricted, threat,",,,,0.7,2,3,,309
+融合单位,wxdfmds02,战列舰,威胁拓展,drone_station_threat,30,18000,1750,30000,31250,1500,430,,30,15,10,5,5,3500,OMNI,,360,0.6,0.8,,,0,0,300,300,1,1000,7,500000,4,20,720,0.25,40,40,,,,,,,"SHIP_WITH_MODULES,UNBOARDABLE","hist3t, req_military, threat, codex_unlockable, limited_tooltip_if_locked,auto_rec,no_dealer",,,,0.6,2,4,,504
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#空间站,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+威胁要塞,wxkjz_a01,威胁中枢,潜在威胁,AutonomousFabricationSystem,100,40000,1600,50000,10000,10000,300,,30,200,200,2,2,5000,NONE,,,,,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,,,,,,,"STATION, UNBOARDABLE","threat, threat_fabricator,codex_unlockable",,,,0,,,,2002
+威胁壁垒,wxkjz_b01,威胁中枢,潜在威胁,construction_swarm,100,40000,1600,50000,10000,10000,300,,30,200,200,2,2,5000,NONE,,,,,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,,,,,,,"STATION, UNBOARDABLE","threat, threat_fabricator,codex_unlockable",,,,0,,,,2002
+威胁轨道站,wxkjz_c01,威胁中枢,潜在威胁,,100,40000,1600,50000,10000,10000,300,,30,200,200,2,2,5000,NONE,,,,,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE","threat, threat_fabricator,codex_unlockable",,,,0,,,,2002
+机库模块,wxkjz_a02_a,机库模块,潜在威胁,,1,7000,1250,7500,12500,500,1000,2,0,0,0,10,10,2500,FRONT,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",threat,,,,0.5,2,4,,2073
+机库模块,wxkjz_a02_b,机库模块,潜在威胁,,1,7000,1250,7500,12500,500,1000,2,0,0,0,10,10,2500,FRONT,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",threat,,,,0.5,2,4,,2073
+重型战斗模块,wxkjz_a03_a,重型战斗模块,潜在威胁,,1,15000,1750,17000,30000,1000,1000,,0,0,0,10,10,3500,FRONT,,150,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",threat,,,,0.5,2,4,,2063
+重型战斗模块,wxkjz_a03_b,重型战斗模块,潜在威胁,,1,15000,1750,17000,30000,1000,1000,,0,0,0,10,10,3500,FRONT,,150,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",threat,,,,0.5,2,4,,2063
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

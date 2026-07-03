@@ -1,0 +1,79 @@
+{
+  "hullName": "wxjsz_hull",
+  "hullId": "wxjsz",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/监视者.png",
+  "style": "HIGH_TECH",
+  "height": 124,
+  "width": 165,
+  "center": [82, 63.5],
+  "collisionRadius": 128.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 128,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "automated",
+    "threat_hullmod",
+    "fluxshunt"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [7.5, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-0.5, 43]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-0.5, -43]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, 35],
+      "length": 49,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 27,
+      "style": "THREAT"
+    },
+    {
+      "location": [-29, -35],
+      "length": 49,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 27,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    35.5, -3.5,
+    25, -27.5,
+    4.5, -58.5,
+    -7.5, -56.5,
+    -31, -41,
+    -31, 41,
+    -7.5, 56.5,
+    4.5, 58.5,
+    25, 27.5,
+    35.5, 3.5
+  ]
+}

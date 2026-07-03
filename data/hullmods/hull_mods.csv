@@ -1,0 +1,28 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+强化碎片引导者,fragment_coordinator233,,,威胁拓展,"threat,codex_unlockable, fragment, no_drop_salvage","武器, 特殊",15000,,,,8,11,14,20,com.fs.starfarer.api.impl.combat.threat.FragmentCoordinatorHullmod233,增加舰船碎片群中最大碎片数量 %s。,增加了舰船周围碎片群的大小。,增加碎片群大小 %s。,graphics/hullmods/wxqh.png
+威胁模块链接,ThreatLinkedHull,,,威胁拓展,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.ThreatLinkedHull,反映出了母体和子体的一些联系。,,,graphics/hullmods/generic_mod.png
+威胁雷区,threatMinefield,,,威胁拓展,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.threatMinefield,战场周遭会布置大量感应空雷，并破坏靠近的敌舰。,战场周遭会布置大量感应空雷，并破坏靠近的敌舰。,,graphics/hullmods/stealth_mines.png
+威胁复制龙门架,TheatUniversalDecksUpgrade2,,,威胁拓展,"threat,codex_unlockable, fragment, no_drop_salvage","战斗机,特殊",15000,,,,10,15,25,40,data.scripts.hullmods.TheatUniversalDecksUpgrade2,每LPC额外部署 1 架舰载机，部署完成后大幅减少补充时间并提升补充速率。,,战备值降低 %s，维护费增加 %s。,graphics/hullmods/wxfz.png
+威胁修复,AdaptiveRegenerator,,,威胁拓展,"threat,codex_unlockable, fragment, no_drop_salvage","防御,特殊",15000,,,,10,15,25,35,data.scripts.hullmods.AdaptiveRegenerator,利用碎片制造器产生的碎片来，填补装甲与结构,,额外提升%s的结构修复和%s装甲修复,graphics/hullmods/wxxf.png
+主宰核心,TacticalRelay,2,,深红科技,"offensive, special, merc, standard","武器, 支援",40000,,TRUE,,0,0,0,0,data.scripts.hullmods.TacticalRelay,"当部署于战斗中时,提高所有友方舰船%s射程加成以及增加舰船本身%s电子战强度。",,,graphics/hullmods/zzhx.png
+重构反应堆,applyEffectsBeforeShipCreation,,,威胁拓展,codex_require_related,,,,TRUE,,0,0,0,0,data.scripts.hullmods.applyEffectsBeforeShipCreation,"减少{%s}光束伤害，增加{%s}排辐能速率，减少{%s}EMP伤害,减少{%s}过载时间
+",,,graphics/hullmods/coherer.png
+,,,,,,,,,,,,,,,,,,,
+大型龙鳞装甲,HeavyArmorTurrets,,,,,防御,,,TRUE,,0,0,0,0,data.scripts.hullmods.HeavyArmorTurrets,将减少伤害计算的 有效装甲强度 增加到其实际值的 %s。提高装甲的减伤效果，并且额外增加百分之25的装甲值，但降低百分之25的炮塔转向速度,,,graphics/hullmods/llj.png
+暗物质反应堆,FluxCapacitorOvercharge,,,,,特殊,7000,,TRUE,,0,0,0,0,data.scripts.hullmods.FluxCapacitorOvercharge,提高 %s 辐容、提高 %s 辐散。并提高 %s 强制排幅的速率，减少 %s emp伤害,,,graphics/hullmods/awz.png
+亚空间陷阱,SpeedNerfAura,,,,,支援,40000,,TRUE,,0,0,0,0,data.scripts.hullmods.SpeedNerfAura,"当部署于战斗中时,在舰船2500码范围内减少敌方舰船%s速度",,,graphics/hullmods/ykjxj.png
+暗物质偏导护盾,StabilizedShieldArray,,,,,防御,,,TRUE,,0,0,0,0,data.scripts.hullmods.StabilizedShieldArray,减少%s护盾所受的伤害，允许舰船以 %s 的正常耗散速率在护盾开启时耗散硬幅能，同时减少%s护盾维持所需的辐能。,允许舰船在展开护盾时耗散硬幅能。,,graphics/hullmods/awzd.png
+,,,,,,,,,,,,,,,,,,,
+"""预言""舰身框架",ThreatWeaponSwitcher,,,,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatWeaponSwitcher,"""预言""框架能够根据战场内容定制化武备，提供丰富多元的应对策略。",,,graphics/hullmods/zzhx.png
+小行星榴弹发射器(右）,wxldp1,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatFlavor1,小行星榴弹发射器(右）下一武器：破灭穿甲突击炮(右）,,,graphics/hullmods/generic_mod.png
+破灭穿甲突击炮(右）,wxbq1,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatFlavor1,破灭穿甲突击炮(右）下一武器：中子裂隙发射极(右）,,,graphics/hullmods/generic_mod.png
+中子裂隙发射极(右）,wxjg1,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatFlavor1,中子裂隙发射极(右）下一武器：小行星榴弹发射器(右）,,,graphics/hullmods/generic_mod.png
+,,,,,,,,,,,,,,,,,,,
+小行星榴弹发射器(左）,wxldp,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatFlavor1,小行星榴弹发射器(左）下一武器：破灭穿甲突击炮(左）,,,graphics/hullmods/generic_mod.png
+破灭穿甲突击炮(左）,wxbq,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatFlavor1,破灭穿甲突击炮(左）下一武器：中子裂隙发射极(左）,,,graphics/hullmods/generic_mod.png
+中子裂隙发射极(左）,wxjg,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatFlavor1,中子裂隙发射极(左）下一武器：小行星榴弹发射器(左）,,,graphics/hullmods/generic_mod.png
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+舰船配置: 护盾,threat_hull_shell,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatHullShell,,,,graphics/hullmods/generic_mod.png
+舰船配置: 相位,threat_hull_phase,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.scripts.hullmods.ThreatHullPhase,,,,graphics/hullmods/generic_mod.png
+,,,,,,,,,,,,,,,,,,,

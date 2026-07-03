@@ -1,0 +1,59 @@
+{
+  "id": "nmy_payload",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY_FIGHTER",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/fx/empty.png",
+  "turretGlowSprite": "graphics/fx/empty.png",
+  "hardpointSprite": "graphics/fx/empty.png",
+  "hardpointGlowSprite": "graphics/fx/empty.png",
+  "glowColor": [
+    205, 
+	127,
+	50,
+	255
+  ],
+  "hitGlowRadius": 350,
+  "turretOffsets": [
+    8,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    240, 
+	230,
+	140,
+	255
+  ],
+  "coreColor": [
+   210, 
+   105, 
+   30,
+   255
+  ],
+  "width": 50,
+  "textureType": LASER,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF,
+    FIGHTER,
+    ASTEROID
+  ],
+  "fireSoundOne": "dragonfire_payload_fire"
+}

@@ -1,0 +1,33 @@
+{
+  "variantId": "TBMO554",
+  "hullId": "TBMO",
+  "displayName": "Old Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 44,
+  "fluxVents": 44,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fragment_swarm",
+    "targetingunit",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9",
+        "WS0002": "mark9",
+        "WS0003": "hellbore",
+        "WS0005": "hellbore",
+        "WS0006": "flak",
+        "WS0007": "flak",
+        "WS0008": "harpoon",
+        "WS0009": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

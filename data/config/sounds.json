@@ -1,0 +1,39 @@
+{
+"斯安威斯坦1":[ 
+    {"file":"data/sounds/斯安威斯坦1.ogg","pitch":0.9,"volume":0.5},
+],
+
+"斯安威斯坦2":[ 
+    {"file":"data/sounds/斯安威斯坦2.ogg","pitch":0.9,"volume":0.5},
+],
+    
+"斯安威斯坦3":[ 
+    {"file":"data/sounds/斯安威斯坦3.ogg","pitch":0.9,"volume":0.5},
+],
+"sy1":[ 
+    {"file":"data/sounds/sy1.ogg","pitch":0.9,"volume":0.5},
+],
+"sy2":[ 
+    {"file":"data/sounds/sy2.ogg","pitch":0.9,"volume":0.5},
+],
+"ld1":[ 
+    {"file":"data/sounds/ld1.ogg","pitch":0.9,"volume":0.5},
+],
+"bq1":[ 
+    {"file":"data/sounds/bq1.ogg","pitch":0.9,"volume":0.5},
+],
+"jgp":[ 
+    {"file":"data/sounds/jgp.ogg","pitch":0.9,"volume":0.5},
+],
+"yq":[ 
+    {"file":"data/sounds/yq.ogg","pitch":0.9,"volume":0.8},
+],
+"music":{
+    "dm":[ 
+    {"file":"dm.ogg","source":"data/sounds/","volume":0.7,"randomStart":false}
+],
+"byxz":[ 
+    {"file":"byxz.ogg","source":"data/sounds/","volume":0.7,"randomStart":false}
+],
+}
+}

@@ -1,0 +1,41 @@
+{
+  "variantId": "YQMO554",
+  "hullId": "YQMO",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "automated",
+    "fragment_swarm",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0002": "mark9",
+        "WS0003": "flak",
+        "WS0004": "flak",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "harpoon",
+        "WS0008": "heatseeker",
+        "WS0009": "heatseeker",
+        "WS0010": "heatseeker",
+        "WS0011": "heatseeker",
+        "WS0012": "heatseeker",
+        "WS0013": "heatseeker",
+        "WS0014": "heatseeker",
+        "WS0015": "heatseeker",
+        "WS0017": "harpoon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

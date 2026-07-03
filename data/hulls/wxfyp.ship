@@ -1,0 +1,121 @@
+{
+  "hullName": "wxfyp",
+  "hullId": "wxfyp",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/wings/4.png",
+  "style": "THREAT",
+  "height": 89,
+  "width": 42,
+  "center": [21, 45],
+  "collisionRadius": 52,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 50.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "advancedcore",
+    "fragment_swarm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5, 13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-5, -13]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, 9.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "THREAT"
+    },
+    {
+      "location": [-11.5, -9.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "THREAT"
+    },
+    {
+      "location": [-10.5, 14.5],
+      "length": 11,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "THREAT"
+    },
+    {
+      "location": [-10.5, -14.5],
+      "length": 11,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "THREAT"
+    },
+    {
+      "location": [-11, 18],
+      "length": 13.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "THREAT"
+    },
+    {
+      "location": [-11, -18],
+      "length": 13.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    43.5, -3,
+    1.5, -7.5,
+    -3.5, -20.5,
+    -10, -21,
+    -12.5, -7.5,
+    -45, -0,
+    -12.5, 7.5,
+    -10, 21,
+    -3.5, 20.5,
+    1.5, 7.5,
+    43.5, 3
+  ]
+}

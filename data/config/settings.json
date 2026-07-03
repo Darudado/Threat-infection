@@ -1,0 +1,26 @@
+{
+  "designTypeColors": {
+    "威胁拓展": [128, 128, 128, 255]
+  },
+  "graphics": {
+    "characters": {
+      "wxtx": "graphics/portraits/threat.png",
+      "gmtx01": "graphics/portraits/portrait_ai1.png",
+      "gmtx02": "graphics/portraits/portrait_ai1b.png",
+      "aftx01": "graphics/portraits/portrait_ai2.png",
+      "hl_core": "graphics/portraits/hl_core.png",
+      "bttx01": "graphics/portraits/portrait_ai3.png",
+      "cl_core": "graphics/portraits/cl_core.png",
+      "hwtx": "graphics/portraits/dwelller.png",
+	  "hf": "graphics/portraits/hf.png",
+      "omtx02": "graphics/portraits/omega.png"
+    },
+    "blueprint_packages": {
+      "threat_package": "graphics/icons/cargo/package_threat.png",
+      "threat_weapons_package": "graphics/icons/cargo/package_threat_weapons.png",
+      "wxkjz_a01_bp": "graphics/icons/cargo/package_threat_weapons.png"
+    }
+  },
+  "drop_prob_officer_hl_core": 0.01,
+  "drop_prob_officer_cl_core": 0.04
+}

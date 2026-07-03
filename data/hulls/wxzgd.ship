@@ -1,0 +1,219 @@
+{
+  "hullName": "wxzgd_hull",
+  "hullId": "wxzgd",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/至高点1.png",
+  "style": "THREAT",
+  "height": 305,
+  "width": 146,
+  "center": [73.5, 159],
+  "collisionRadius": 154.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 148.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [97.5, 40]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -0,
+      "locations": [97.5, -40]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [94, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [121.5, -24.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [117, 32.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [82, 55]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [82, -55]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 60,
+      "locations": [44.5, 53.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -60,
+      "locations": [44.5, -53.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-84.5, 44]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-84.5, -44]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-63, 42]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-63, -42]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-27.5, 36.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [63, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-138.5, 30.5],
+      "length": 72,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "THREAT"
+    },
+    {
+      "location": [-138.5, -30.5],
+      "length": 72,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "THREAT"
+    },
+    {
+      "location": [-135, 40.5],
+      "length": 72,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "THREAT"
+    },
+    {
+      "location": [-135, -40.5],
+      "length": 72,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "THREAT"
+    },
+    {
+      "location": [-137.5, 20],
+      "length": 69,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "THREAT"
+    },
+    {
+      "location": [-137.5, -20],
+      "length": 69,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    120.5, -44.5,
+    89, -64,
+    26, -59.5,
+    17.5, -26.5,
+    -25, -38,
+    -138, -49.5,
+    -138, 49.5,
+    -25, 38,
+    17.5, 26.5,
+    26, 59.5,
+    89, 64,
+    120.5, 44.5
+  ]
+}

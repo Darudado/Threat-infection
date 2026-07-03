@@ -1,0 +1,111 @@
+{
+  "hullName": "wxjx",
+  "hullId": "wxjx",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/巨像.png",
+  "style": "THREAT",
+  "height": 305,
+  "width": 276,
+  "center": [137.5, 153.5],
+  "collisionRadius": 158.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 154.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "threat_hullmod",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 45,
+      "locations": [87.5, 56.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [87.5, -56.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-48.5, 77.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-48.5, -77.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-69.5, 81]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-69.5, -81]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-120, 68.5],
+      "length": 66.5,
+      "width": 39,
+      "angle": 180,
+      "contrailSize": 39,
+      "style": "THREAT"
+    },
+    {
+      "location": [-120, -68.5],
+      "length": 66.5,
+      "width": 39,
+      "angle": -180,
+      "contrailSize": 39,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    119, -31,
+    104.5, -86,
+    48, -96,
+    -27.5, -78.5,
+    -41.5, -85.5,
+    -122, -89,
+    -125, -45,
+    -74.5, -34.5,
+    -82.5, -0,
+    -74.5, 34.5,
+    -125, 45,
+    -122, 89,
+    -41.5, 85.5,
+    -27.5, 78.5,
+    48, 96,
+    104.5, 86,
+    119, 31
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "variantId": "wxkjz_a02_a",
+  "hullId": "wxkjz_a02_a",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": [
+    "wxsj_wing",
+    "wxsg_wing",
+
+  ]
+}

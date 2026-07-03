@@ -1,0 +1,6 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
+纳米碎片,nanites,nanites,30,3000,3,1,,expensive,1000,1,graphics/icons/cargo/Nanites.png,ui_cargo_metals,ui_cargo_metals_drop,8,1.1,500,2000,,60000,1,,
+灰风核心,xiaohui_core,ai_cores,,,0,1000,,"nonecon, ai_core, no_loss_from_combat, codex_unlockable",1000,1,graphics/icons/cargo/wxhx.png,ai_core_pickup,ui_alpha_core_drop,40.123,,,,HIGH,,1,,
+位乱流光核心,wllg_core,ai_cores,,,0,1000,,"nonecon, ai_core, no_loss_from_combat, codex_unlockable",1000,1,graphics/icons/cargo/hx3.png,ai_core_pickup,ui_alpha_core_drop,40.122,,,,HIGH,,1,,
+混乱 AI 核心,hl_core,ai_cores,,,0,150,,"nonecon, ai_core, no_loss_from_combat, codex_unlockable",1000,1,graphics/icons/cargo/hx2.png,ai_core_pickup,ui_alpha_core_drop,40.111,,,,HIGH,,1,,
+错乱 AI 核心,cl_core,ai_cores,,,0,100,,"nonecon, ai_core, no_loss_from_combat, codex_unlockable",1000,1,graphics/icons/cargo/hx1.png,ai_core_pickup,ui_alpha_core_drop,40.222,,,,MEDIUM,,1,,

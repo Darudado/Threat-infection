@@ -1,0 +1,26 @@
+{
+  "hullName": "ZZJ",
+  "hullId": "ZZJMO555",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/000.png",
+  "style": "THREAT",
+  "height": 1,
+  "width": 1,
+  "center": [36, 213],
+  "collisionRadius": 2.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 2,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    11.5, 2.5,
+    9, 0,
+    9, -0,
+    11.5, -2.5
+  ]
+}

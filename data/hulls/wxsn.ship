@@ -1,0 +1,66 @@
+{
+  "hullName": "wxsn",
+  "hullId": "wxsn",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/水牛.png",
+  "style": "THREAT",
+  "height": 175,
+  "width": 138,
+  "center": [69, 87.5],
+  "collisionRadius": 98,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 93.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "threat_hullmod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 45,
+      "locations": [11, 45]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [11, -45]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71.5, 17.5],
+      "length": 48.5,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "THREAT"
+    },
+    {
+      "location": [-71.5, -17.5],
+      "length": 48.5,
+      "width": 33,
+      "angle": -180,
+      "contrailSize": 33,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    72.5, -37,
+    54.5, -55,
+    -26, -57.5,
+    -74.5, -30.5,
+    -74.5, 30.5,
+    -26, 57.5,
+    54.5, 55,
+    72.5, 37
+  ]
+}

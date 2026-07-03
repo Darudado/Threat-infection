@@ -1,0 +1,76 @@
+{
+  "hullName": "SHM",
+  "hullId": "SHMMO554",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/SHMMO1.png",
+  "style": "THREAT",
+  "height": 197,
+  "width": 107,
+  "center": [61.5, 105],
+  "collisionRadius": 102.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 100.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "reduced_explosion",
+    "ThreatLinkedHull",
+    "always_detaches",
+    "fragment_swarm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS000",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-23.5, 13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-79.5, -16.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [5, -7]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        27.5, 18,
+        34.5, 21,
+        40.5, 23,
+        46, 26,
+        53.5, 29.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -92.5, -12.5,
+    -40, 40.5,
+    47.5, 52.5,
+    84, 33,
+    -5, -29.5,
+    -49, -36,
+    -83, -28
+  ]
+}

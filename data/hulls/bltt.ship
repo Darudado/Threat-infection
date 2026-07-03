@@ -1,0 +1,291 @@
+{
+  "hullName": "bltt",
+  "hullId": "bltt",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/悖论泰坦.png",
+  "style": "HIGH_TECH",
+  "height": 795,
+  "width": 388,
+  "center": [194, 397.5],
+  "collisionRadius": 485,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 471.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "HeavyArmorTurrets",
+    "FluxCapacitorOvercharge",
+    "advancedcore",
+    "SpeedNerfAura",
+    "StabilizedShieldArray"
+  ],
+  "builtInWings": [
+    "qxjzj_wing",
+    "qxjzj_wing",
+    "qxjzj_wing",
+    "qxjzj_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "nm",
+    "WS0002": "nm",
+    "WS0007": "nm",
+    "WS0008": "nm",
+    "WS0009": "zzl",
+    "WS0010": "zzl",
+    "WS0011": "zzl",
+    "WS0012": "zzl",
+    "WS0013": "lysx",
+    "WS0014": "lysx"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": 45,
+      "locations": [33, 133.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": -45,
+      "locations": [33, -133.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [21, 1.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-190.5, 1]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": 125,
+      "locations": [-50.5, 41]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": -125,
+      "locations": [-50.5, -41]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [82, 42]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -0,
+      "locations": [82, -42]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [37, 80]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [37, -80]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 125,
+      "locations": [-9.5, 74.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -128.5,
+      "locations": [-9.5, -74.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [110, 1.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [93.5, 1.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -55.5, 70,
+        -52, 73.5,
+        -47.5, 76,
+        -49.5, 70,
+        -46, 72.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -55, -66.5,
+        -51, -66,
+        -50.5, -70,
+        -46.5, -70,
+        -45.5, -73
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        17.5, 179.5,
+        21, 180,
+        24, 180,
+        19, 176,
+        22.5, 176
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        18.5, -172.5,
+        21.5, -172,
+        24.5, -172.5,
+        20.5, -175.5,
+        23, -175.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-372, 69.5],
+      "length": 142,
+      "width": 61,
+      "angle": 180,
+      "contrailSize": 61,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-372, -69.5],
+      "length": 142,
+      "width": 61,
+      "angle": -180,
+      "contrailSize": 61,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-383.5, 40],
+      "length": 142,
+      "width": 61,
+      "angle": 180,
+      "contrailSize": 61,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-383.5, -40],
+      "length": 142,
+      "width": 61,
+      "angle": -180,
+      "contrailSize": 61,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-390, 3],
+      "length": 173.5,
+      "width": 99,
+      "angle": 180,
+      "contrailSize": 99,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -396, 12,
+    -378, 93,
+    -319, 100,
+    -224, 71,
+    -112, 62,
+    1, 101.5,
+    6, 191.5,
+    32, 198.5,
+    85, 76.5,
+    396, 45.5,
+    396, -45.5,
+    85, -76.5,
+    32, -198.5,
+    6, -191.5,
+    1, -101.5,
+    -112, -62,
+    -224, -71,
+    -319, -100,
+    -378, -93,
+    -396, -12
+  ]
+}

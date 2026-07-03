@@ -1,0 +1,187 @@
+{
+  "hullName": "ZS",
+  "hullId": "ZSMO",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/ZSMO.png",
+  "style": "THREAT",
+  "height": 217,
+  "width": 196,
+  "center": [96.5, 109.5],
+  "collisionRadius": 104.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 99,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+	"ThreatLinkedHull",
+    "always_detaches",
+    "reduced_explosion",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [30.5, -7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [19.5, -2116.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [-4, 28.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-15.5, -2150.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 90,
+      "locations": [-51, 38.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -141,
+      "locations": [-63.5, -2159.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [39.5, -52.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -135,
+      "locations": [28, -2069]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 47,
+      "locations": [-16, 56]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -47,
+      "locations": [-27.5, -2177]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 47,
+      "locations": [22.5, 21.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -47,
+      "locations": [11.5, -2143.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 47,
+      "locations": [56.5, -17.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -47,
+      "locations": [45.5, -2104.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 47,
+      "locations": [11.5, 9]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-75.5, 28]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [29.5, -74]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -93, 28.5,
+    -50, 78.5,
+    7.5, 85,
+    83.5, 14.5,
+    90, -11.5,
+    79, -51,
+    28, -91.5,
+    -37, -36.5
+  ]
+}

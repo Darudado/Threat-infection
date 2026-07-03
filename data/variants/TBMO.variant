@@ -1,0 +1,51 @@
+{
+  "variantId": "TBMO",
+  "hullId": "TBMO",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 40,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fragment_swarm",
+    "secondary_fabricator",
+    "supercomputer",
+    "armoredweapons",
+    "heavyarmor",
+    "fragment_coordinator233"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil",
+        "WS0002": "neoferric_quadcoil",
+        "WS0003": "threatvpdriver",
+        "WS0005": "threatvpdriver",
+        "WS0006": "voidblaster",
+        "WS0007": "voidblaster",
+        "WS0008": "kinetic_fragments",
+        "WS0009": "kinetic_fragments"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

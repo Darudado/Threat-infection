@@ -1,0 +1,57 @@
+{
+  "variantId": "wxxz",
+  "hullId": "wxxz",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fragment_swarm",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "neoferric_quadcoil",
+        "WS0002": "neoferric_quadcoil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavy_mass_driver",
+        "WS0004": "heavy_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "voltaic_discharge",
+        "WS0006": "voltaic_discharge",
+        "WS0007": "voltaic_discharge",
+        "WS0008": "voltaic_discharge"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "kinetic_fragments",
+        "WS0010": "kinetic_fragments",
+        "WS0011": "kinetic_fragments",
+        "WS0012": "kinetic_fragments"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "wxfyp_wing",
+    "wxsj_wing"
+  ]
+}

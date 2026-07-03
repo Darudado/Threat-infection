@@ -1,0 +1,29 @@
+{
+  "hullName": "SHM",
+  "hullId": "SHMMO555",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/000.png",
+  "style": "THREAT",
+  "height": 1,
+  "width": 1,
+  "center": [68.5, 156],
+  "collisionRadius": 2.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 2,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "threat_hullmod",
+    "reduced_explosion",
+    "ThreatLinkedHull",
+    "always_detaches",
+    "TheatUniversalDecksUpgrade2"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    3, -0.5,
+    3, 0.5,
+    5, -0.5
+  ]
+}

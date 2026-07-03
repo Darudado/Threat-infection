@@ -1,0 +1,21 @@
+{
+	"id":"PhasedDriftStats",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.PhasedDriftAI",
+	
+	"statsScript":"data.scripts.shipsystems.PhasedDriftStats",
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"sy1",
+	"loopSound":"sy2",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":125,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":80,
+	}
+}

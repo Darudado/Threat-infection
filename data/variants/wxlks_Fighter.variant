@@ -1,0 +1,30 @@
+{
+  "variantId": "wxlks_Fighter",
+  "hullId": "wxlks",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "wxsd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "light_mass_driver",
+        "WS0002": "light_mass_driver"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

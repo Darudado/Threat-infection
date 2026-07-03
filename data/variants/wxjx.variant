@@ -1,0 +1,30 @@
+{
+  "variantId": "wxjx",
+  "hullId": "wxjx",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fragment_swarm",
+    "fragment_coordinator"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "voltaic_discharge",
+        "WS0002": "voltaic_discharge",
+        "WS0003": "kinetic_fragments",
+        "WS0004": "kinetic_fragments",
+        "WS0005": "devouring_swarm",
+        "WS0006": "devouring_swarm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

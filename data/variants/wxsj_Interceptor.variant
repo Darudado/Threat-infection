@@ -1,0 +1,23 @@
+{
+  "variantId": "wxsj_Interceptor",
+  "hullId": "wxsj",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "voltaic_discharge",
+        "WS0002": "voltaic_discharge"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
