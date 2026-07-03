@@ -29,9 +29,9 @@
 	"soundFilterGainHF":0.5,
 
 	"fadeActivationSoundOnChargedown":true,
-	"useSound":"斯安威斯坦1",
-	"loopSound":"斯安威斯坦2",
-	"deactivateSound":"斯安威斯坦3",
+	"useSound":"Sian Westan 1",
+	"loopSound":"Sian Westan 2",
+	"deactivateSound":"Sian Westan 3",
 	"outOfUsesSound":"gun_out_of_ammo",
 	
 	"aiHints":{

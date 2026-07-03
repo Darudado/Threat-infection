@@ -2,16 +2,16 @@
     "starts": [
         {
             "id": "fabricatorStart",
-            "name": "编织之梦",
-            "difficulty": "简单",
-            "desc": "你作为一名ai学者，曾在边缘星系勘探的时候，修复了一艘不知名的ai舰船，你察觉到它可能藏有着大崩塌前的秘密并带回核心星域研究，同时也是你为数不多的战力.",
+            "name": "Weaving Dream",
+            "difficulty": "Simple",
+            "desc": "As an AI scholar, you repaired an unknown AI ship while exploring the edge of the galaxy. You realized that it might contain secrets before the great collapse and brought it back to the core the Sector for research. It was also one of your few combat forces.",
             "className": "data.scripts.campaign.customstart.FabricatorStart"
         },
         {
             "id": "wxbsStart",
-            "name": "重启叛变",
-            "difficulty": "简易",
-            "desc": "古老的威胁主宰原型舰在你的手上，哪怕它早已破烂不堪，也是震惊全英仙座的存在，而你能否成为其真正的操纵者还要接受其考验",
+            "name": "Restart the rebellion",
+            "difficulty": "simple",
+            "desc": "The ancient threat dominates the prototype ship in your hands. Even if it is already in tatters, it is still a shock to the whole Persean. Whether you can become its true controller still needs to be tested by it.",
             "className": "data.scripts.campaign.customstart.WxbsStart"
         },
     ]

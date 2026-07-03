@@ -1,9 +1,9 @@
 {
     "id":"Hdbyunm",
-    "name":"威胁侵染",
+    "name":"Threat Infestation",
     "author":"XIAHUI",
-    "version":0.23,
-    "description":"添加大量威胁舰船，并添加一个威胁殖民地来提供购买渠道，额外增加四个殖民地建筑以及两个制品，包含势力争霸的额外开局以及势力开局内容。",
+    "version":"0.23-ENG1",
+    "description":"A large number of threat ships have been added, and a threat colony has been added to provide purchase channels. Four additional colony buildings and two products have been added, including additional starts for the faction Hegemony and content for the faction start.",
     "gameVersion":"0.98a",
 	"jars":["jars/Hdbyunm.jar"],
 	"dependencies": [

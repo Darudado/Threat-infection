@@ -1,9 +1,9 @@
 {
 	id:"threat_qr",
-	"displayName":"侵染威胁",
-	"displayNameWithArticle":"侵染威胁",
-	"displayNameLong":"侵染威胁",
-	"displayNameLongWithArticle":"侵染威胁",
+	"displayName":"Infestation threat",
+	"displayNameWithArticle":"Infestation threat",
+	"displayNameLong":"Infestation threat",
+	"displayNameLongWithArticle":"Infestation threat",
 	"entityNamePrefix":"",
 	"personNamePrefix":"",
 	"personNamePrefixAOrAn":"",

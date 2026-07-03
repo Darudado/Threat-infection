@@ -3,160 +3,159 @@ hxmo_upgrade_main,PopulateOptions,"$hasMarket
 $menuState == main
 $tradeMode == OPEN
 $global.HXMO_upgrade_hasship == true
-$global.HXMO_upgrade_needupdate == false",,,16:hxmo_upgrade_menu:威胁主宰火力系统升级选项,
+$global.HXMO_upgrade_needupdate == false",,,16:hxmo_upgrade_menu:Threat Dominator Firepower System Upgrade Options,
 hxmo_upgrade_back,DialogOptionSelected,$option == hxmo_upgrade_back,"$menuState = main 0
 FireAll PopulateOptions",,,
-hxmo_upgrade_menu,DialogOptionSelected,$option == hxmo_upgrade_menu,"SetShortcut hxmo_upgrade_back ""ESCAPE""","威胁主宰模块升级系统。您可以添加火力模块，航母模块以及顶部装甲模块，当前升级状态：
-火力模块：$global.HXMO_upgrade_level
-航母模块：$global.HXMO_upgrade_carrier_level
-装甲模块：$global.HXMO_upgrade_armor_level","1:hxmo_upgrade_fix:修复D-插件
-2:hxmo_upgrade_weapon:进行火力模块升级
-3:hxmo_upgrade_carrier:进行航母模块升级
-4:hxmo_upgrade_armor:进行装甲模块升级
-5:hxmo_upgrade_back:返回",
+hxmo_upgrade_menu,DialogOptionSelected,$option == hxmo_upgrade_menu,"SetShortcut hxmo_upgrade_back ""ESCAPE""","Threat Sovereign module upgrade system. You can add firepower modules, aircraft carrier modules and top armor modules. Current upgrade status:
+Firepower module: $global.HXMO_upgrade_level
+Aircraft carrier module: $global.HXMO_upgrade_carrier_level
+Armor module: $global.HXMO_upgrade_armor_level","1:hxmo_upgrade_fix:Fix D-mods
+2:hxmo_upgrade_weapon:Perform firepower module upgrades
+3:hxmo_upgrade_carrier:Carrier module upgrade
+4:hxmo_upgrade_armor:Perform armor module upgrades
+5:hxmo_upgrade_back:return",
 ,,,,,,
 hxmo_upgrade_fix_t,DialogOptionSelected,"$option == hxmo_upgrade_fix
-$global.HXMO_upgrade_canfix == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费200,000星币进行修复：随机移除一个D-插件。","1:hxmo_upgrade_fix_up:确定修复
-2:hxmo_upgrade_menu:返回",
+$global.HXMO_upgrade_canfix == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Cost 200,000 credits to fix: remove a D-mods at random.","1:hxmo_upgrade_fix_up:OK to fix
+2:hxmo_upgrade_menu:return",
 hxmo_upgrade_fix_f,DialogOptionSelected,"$option == hxmo_upgrade_fix
-$global.HXMO_upgrade_canfix == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费200,000星币进行修复：随机移除一个D-插件。没有足够的星币或没有D-插件，无法修复。",2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_canfix == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Cost 200,000 credits to fix: remove a D-mods at random. Not enough credits or no D-mods, cannot be repaired.",2:hxmo_upgrade_menu:return,
 hxmo_upgrade_fix_up,DialogOptionSelected,$option == hxmo_upgrade_fix_up,"SetShortcut hxmo_upgrade_menu ""ESCAPE""
 $global.HXMO_upgrade_fix = true
-$global.HXMO_upgrade_needupdate = true",修复完成：随机移除一个D-插件。,2:hxmo_upgrade_menu:确认,
+$global.HXMO_upgrade_needupdate = true",Fix completed: Random removal of a D-mods.,2:hxmo_upgrade_menu:confirm,
 ,,,,,,
 ,,,,,,
 hxmo_upgrade_weapon_0_t,DialogOptionSelected,"$option == hxmo_upgrade_weapon
 $global.HXMO_upgrade_level == 0
-$global.HXMO_upgrade_canupgrade == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费500,000星币,2点故事点来进行一级火力升级：添加左右火力模块。","1:hxmo_upgrade_weapon_0_up:确定升级
-2:hxmo_upgrade_menu:返回",
+$global.HXMO_upgrade_canupgrade == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 500,000 credits and 2 Story Points to upgrade the level 1 firepower: add left and right firepower modules.","1:hxmo_upgrade_weapon_0_up:Confirm upgrade
+2:hxmo_upgrade_menu:return",
 hxmo_upgrade_weapon_0_f,DialogOptionSelected,"$option == hxmo_upgrade_weapon
 $global.HXMO_upgrade_level == 0
-$global.HXMO_upgrade_canupgrade == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费500,000星币,2点故事点来进行一级火力升级：添加左右火力模块，没有足够的升级材料，无法升级。",2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_canupgrade == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 500,000 credits and 2 Story Points to upgrade the first level firepower: add left and right firepower modules. There are not enough upgrade materials and cannot be upgraded.",2:hxmo_upgrade_menu:return,
 hxmo_upgrade_weapon_0_up,DialogOptionSelected,$option == hxmo_upgrade_weapon_0_up,"SetShortcut hxmo_upgrade_menu ""ESCAPE""
 $global.HXMO_upgrade_level = 1
-$global.HXMO_upgrade_needupdate = true",一级升级完成：左右火力模块已添加,2:hxmo_upgrade_menu:确认,
+$global.HXMO_upgrade_needupdate = true",Level 1 upgrade completed: left and right firepower modules have been added,2:hxmo_upgrade_menu:confirm,
 ,,,,,,
 ,,,,,,
 hxmo_upgrade_weapon_1_t,DialogOptionSelected,"$option == hxmo_upgrade_weapon
 $global.HXMO_upgrade_level == 1
-$global.HXMO_upgrade_weapon_canupgrade2 == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费600,000星币,3点故事点来进行二级火力升级：给左右火力模块安装先进目标定位插件，升级左右火力模块到最终版本。记得在升级前缺下所有东西，不然会全消失的）记得！记得！","1:hxmo_upgrade_weapon_1_up:确定升级
-2:hxmo_upgrade_menu:返回",
+$global.HXMO_upgrade_weapon_canupgrade2 == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 600,000 credits and 3 Story Points to upgrade the secondary firepower: install advanced targeting plug-ins for the left and right firepower modules, and upgrade the left and right firepower modules to the final version. Remember to remove all missing items before upgrading, otherwise they will all disappear) Remember! Remember!","1:hxmo_upgrade_weapon_1_up:Confirm upgrade
+2:hxmo_upgrade_menu:return",
 hxmo_upgrade_weapon_1_f,DialogOptionSelected,"$option == hxmo_upgrade_weapon
 $global.HXMO_upgrade_level == 1
-$global.HXMO_upgrade_weapon_canupgrade2 == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费600,000星币,3点故事点来进行二级火力升级：没有足够的升级材料，无法升级。",2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_weapon_canupgrade2 == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","It costs 600,000 credits and 3 Story Points to upgrade the level 2 firepower: there are not enough upgrade materials to upgrade.",2:hxmo_upgrade_menu:return,
 hxmo_upgrade_weapon_1_up,DialogOptionSelected,$option == hxmo_upgrade_weapon_1_up,"SetShortcut hxmo_upgrade_menu ""ESCAPE""
 $global.HXMO_upgrade_level = 2
-$global.HXMO_upgrade_needupdate = true",二级升级完成：左右火力模块已升级到最终版本,2:hxmo_upgrade_menu:确认,
+$global.HXMO_upgrade_needupdate = true",Level 2 upgrade completed: left and right firepower modules have been upgraded to the final version,2:hxmo_upgrade_menu:confirm,
 hxmo_upgrade_weapon_2,DialogOptionSelected,"$option == hxmo_upgrade_weapon
-$global.HXMO_upgrade_level == 2","SetShortcut hxmo_upgrade_menu ""ESCAPE""",火力模块升级已完成（最高等级）。无需再升级,2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_level == 2","SetShortcut hxmo_upgrade_menu ""ESCAPE""",Firepower module upgrade completed (highest level). No need to upgrade anymore,2:hxmo_upgrade_menu:return,
 ,,,,,,
 hxmo_upgrade_carrier_0_t,DialogOptionSelected,"$option == hxmo_upgrade_carrier
 $global.HXMO_upgrade_carrier_level == 0
-$global.HXMO_upgrade_carrier_canupgrade == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费400,000星币,3点故事点来进行一级航母模块升级：添加左右航母模块。","1:hxmo_upgrade_carrier_0_up:确定升级
-2:hxmo_upgrade_menu:返回",
+$global.HXMO_upgrade_carrier_canupgrade == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 400,000 credits and 3 Story Points to upgrade the first-level aircraft carrier module: add left and right aircraft carrier modules.","1:hxmo_upgrade_carrier_0_up:Confirm upgrade
+2:hxmo_upgrade_menu:return",
 hxmo_upgrade_carrier_0_f,DialogOptionSelected,"$option == hxmo_upgrade_carrier
 $global.HXMO_upgrade_carrier_level == 0
-$global.HXMO_upgrade_carrier_canupgrade == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费400,000星币,3点故事点来进行一级航母模块升级：添加左右航母模块，没有足够的升级材料，无法升级。",2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_carrier_canupgrade == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 400,000 credits and 3 Story Points to upgrade the first-level aircraft carrier module: add left and right aircraft carrier modules. There are not enough upgrade materials and cannot be upgraded.",2:hxmo_upgrade_menu:return,
 hxmo_upgrade_carrier_0_up,DialogOptionSelected,$option == hxmo_upgrade_carrier_0_up,"SetShortcut hxmo_upgrade_menu ""ESCAPE""
 $global.HXMO_upgrade_carrier_level = 1
-$global.HXMO_upgrade_needupdate = true",一级升级完成：航母模块已添加,2:hxmo_upgrade_menu:确认,
+$global.HXMO_upgrade_needupdate = true",Level 1 upgrade completed: aircraft carrier module has been added,2:hxmo_upgrade_menu:confirm,
 ,,,,,,
 hxmo_upgrade_carrier_1_t,DialogOptionSelected,"$option == hxmo_upgrade_carrier
 $global.HXMO_upgrade_carrier_level == 1
-$global.HXMO_upgrade_carrier_canupgrade2 == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费500,000星币,4点故事点来进行二级航母升级：扩容一个甲板，并内置威胁复制龙门架，升级左右航母模块到最终版本。（记得在升级前缺下所有东西，不然会全消失的）记得！记得！","1:hxmo_upgrade_carrier_1_up:确定升级
-2:hxmo_upgrade_menu:返回",
+$global.HXMO_upgrade_carrier_canupgrade2 == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 500,000 credits and 4 Story Points to upgrade the secondary aircraft carrier: expand the capacity by one deck, build a threat copy gantry, and upgrade the left and right aircraft carrier modules to the final version. (Remember to remove all the missing items before upgrading, otherwise they will all disappear) Remember! Remember!","1:hxmo_upgrade_carrier_1_up:Confirm upgrade
+2:hxmo_upgrade_menu:return",
 hxmo_upgrade_carrier_1_f,DialogOptionSelected,"$option == hxmo_upgrade_carrier
 $global.HXMO_upgrade_carrier_level == 1
-$global.HXMO_upgrade_carrier_canupgrade2 == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费500,000星币,4点故事点来进行二级航母升级：没有足够的升级材料，无法升级。",2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_carrier_canupgrade2 == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 500,000 credits and 4 Story Points to upgrade the second-level aircraft carrier: there are not enough upgrade materials and cannot be upgraded.",2:hxmo_upgrade_menu:return,
 hxmo_upgrade_carrier_1_up,DialogOptionSelected,$option == hxmo_upgrade_carrier_1_up,"SetShortcut hxmo_upgrade_menu ""ESCAPE""
 $global.HXMO_upgrade_carrier_level = 2
-$global.HXMO_upgrade_needupdate = true",二级升级完成：左右航母模块已升级到最终版本,2:hxmo_upgrade_menu:确认,
+$global.HXMO_upgrade_needupdate = true",Level 2 upgrade completed: left and right aircraft carrier modules have been upgraded to the final version,2:hxmo_upgrade_menu:confirm,
 hxmo_upgrade_carrier_2,DialogOptionSelected,"$option == hxmo_upgrade_carrier
-$global.HXMO_upgrade_carrier_level == 2","SetShortcut hxmo_upgrade_menu ""ESCAPE""",航母模块升级已完成（最高等级）。无需再升级,2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_carrier_level == 2","SetShortcut hxmo_upgrade_menu ""ESCAPE""",The aircraft carrier module upgrade has been completed (highest level). No need to upgrade anymore,2:hxmo_upgrade_menu:return,
 ,,,,,,
 hxmo_upgrade_armor_0_t,DialogOptionSelected,"$option == hxmo_upgrade_armor
 $global.HXMO_upgrade_armor_level == 0
-$global.HXMO_upgrade_armor_canupgrade == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费300,000星币,1点故事点来进行装甲模块升级：添加顶部左右装甲模块。","1:hxmo_upgrade_armor_0_up:确定升级
-2:hxmo_upgrade_menu:返回",
+$global.HXMO_upgrade_armor_canupgrade == true","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 300,000 credits and 1 story point to upgrade the armor module: add top and left armor modules.","1:hxmo_upgrade_armor_0_up:Confirm upgrade
+2:hxmo_upgrade_menu:return",
 hxmo_upgrade_armor_0_f,DialogOptionSelected,"$option == hxmo_upgrade_armor
 $global.HXMO_upgrade_armor_level == 0
-$global.HXMO_upgrade_armor_canupgrade == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","花费300,000星币,1点故事点来进行装甲模块升级：添加顶部左右装甲模块，没有足够的升级材料，无法升级。",2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_armor_canupgrade == false","SetShortcut hxmo_upgrade_menu ""ESCAPE""","Spend 300,000 credits and 1 story point to upgrade the armor module: add the top and left armor modules. There are not enough upgrade materials and cannot be upgraded.",2:hxmo_upgrade_menu:return,
 hxmo_upgrade_armor_0_up,DialogOptionSelected,$option == hxmo_upgrade_armor_0_up,"SetShortcut hxmo_upgrade_menu ""ESCAPE""
 $global.HXMO_upgrade_armor_level = 1
-$global.HXMO_upgrade_needupdate = true",升级完成：装甲模块已添加,2:hxmo_upgrade_menu:确认,
+$global.HXMO_upgrade_needupdate = true",Upgrade completed: Armor module has been added,2:hxmo_upgrade_menu:confirm,
 hxmo_upgrade_armor_1,DialogOptionSelected,"$option == hxmo_upgrade_armor
-$global.HXMO_upgrade_armor_level == 1","SetShortcut hxmo_upgrade_menu ""ESCAPE""",装甲模块升级已完成。无需再升级,2:hxmo_upgrade_menu:返回,
+$global.HXMO_upgrade_armor_level == 1","SetShortcut hxmo_upgrade_menu ""ESCAPE""",Armor module upgrade completed. No need to upgrade anymore,2:hxmo_upgrade_menu:return,
 ,,,,,,
 threat_qr_relLevelNeutral,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == threat_qr",,威胁侵染认为你只是屈服于核心星区的人之领叛徒，弱小反叛者的一员。,,
+$faction.id == threat_qr",,The Threat Infestation considers you to be just one of the weak rebels who have succumbed to the Traitors of the Domain of Man in the Core Sector.,,
 threat_qr_relLevelFavorable,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == threat_qr",,"威胁侵染认为你是可以拉拢的""预选友军""。",,
+$faction.id == threat_qr",,"Threat Infestation considers you a ""pre-selected ally"" that you can win over.",,
 threat_qr_relLevelWelcoming,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == threat_qr",,威胁侵染愿意在其所控制的范围内为你提供尽可能的帮助,,
+$faction.id == threat_qr",,Threat Infestation is willing to provide you with as much help as possible within the scope of its control,,
 threat_qr_relLevelFriendly,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == threat_qr",,你被认为是威胁侵染诸多备选友军之一：他们会给你提供超额的帮助,,
+$faction.id == threat_qr",,You are considered one of the many possible allies threatening the infestation: they will provide you with an outsized amount of help,,
 threat_qr_relLevelCooperative,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == threat_qr",,威胁侵染视你为威胁侵染的绝对友军，视你为威胁侵染的领袖！,,
+$faction.id == threat_qr",,Threat Infestation regards you as an absolute ally of Threat Infestation and as its leader!,,
 threat_qr_relLevelSuspicious,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
-$faction.id == threat_qr",,威胁侵染认为你可能违反威胁相关规定，防卫队会时不时找你的麻烦。,,
+$faction.id == threat_qr",,"Threat infestation thinks you may violate threat-related regulations, and the defense team will cause trouble for you from time to time.",,
 threat_qr_relLevelInhospitable,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == threat_qr",,"虽然你所作所为并不算算恶劣，但是威胁侵染依旧拒绝与你这种""可能的威胁之敌""交流。",,
+$faction.id == threat_qr",,"Although what you did is not considered bad, Threat Infestation still refuses to communicate with ""possible threatening enemies"" like you.",,
 threat_qr_relLevelHostile,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == threat_qr",,你恶劣的叛匪行径，被威胁侵染所厌恶，他们拒绝帮助你。,,
+$faction.id == threat_qr",,"Disgusted by your vile traitorous behavior and infested with threats, they refuse to help you.",,
 threat_qr_relLevelVengeful,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == threat_qr",,你被威胁侵染视为威胁头号罪犯，是要被毁灭以做典型的，只要你出现在他们所在的区域，就会被追杀。,,
+$faction.id == threat_qr",,"You are regarded as the number one threat criminal by Threat Infestation and are to be destroyed as a typical example. As long as you appear in their area, you will be hunted down.",,
 ,,,,,,
 threat_qr_greetingFriendly,OpenCommLink,"$faction.id == threat_qr
-$faction.friendlyToPlayer","SetShortcut cutCommLinkPolite ""ESCAPE""","""巡查，搜索中，判断：友方""
-""尊敬的}$playerName}，欢迎您的访问""
-继续制造【/错误\>",,
+$faction.friendlyToPlayer","SetShortcut cutCommLinkPolite ""ESCAPE""","""Inspection, Searching, Judgment: Friendly""
+""Dear}$playerName}, welcome to your visit""
+Continue to create [/error\>",,
 threat_qr_greetingHostile,OpenCommLink,"$faction.id == threat_qr
 $entity.isHostile","SetShortcut cutCommLink ""ESCAPE""
-$entity.ignorePlayerCommRequests = true 1","""巡查，搜索中，判断：叛军""
-""罪恶的}$playerName}，你已被通缉，停止对你的访问""
-停止制造【/错误\>",,
+$entity.ignorePlayerCommRequests = true 1","""Inspection, search, judgment: rebels""
+""Sinful}$playerName}, you are wanted, access to you is stopped""
+Stop manufacturing【/error\>",,
 threat_qr_greeting,OpenCommLink,"$faction.id == threat_qr
-$faction.neutralToPlayer","SetShortcut cutCommLink ""ESCAPE""","""巡查，搜索中，判断：中立""
-""中立的}$playerName}，你已被警告，不要靠近本舰队""
-继续制造【/错误\>",cutCommLink:切断通讯链接,
+$faction.neutralToPlayer","SetShortcut cutCommLink ""ESCAPE""","""Inspection, searching, judgment: neutral""
+""Neutral}$playerName}, you have been warned not to approach this fleet""
+Continue to create [/error\>",cutCommLink:Cut communication link,
 ,,,,,,
 threat_qr_defaultdialog,PickGreeting,$threat_qr_defaultdialog == true score:10,"ShowPersonVisual
-FireAll PopulateOptions",通讯系统没有传来任何回应，看来暂时无法联系上对方。,,
+FireAll PopulateOptions","There was no response from the communication system, and it seemed that the other party could not be contacted for the time being.",,
 ,,,,,,
 threat_qr_turnInAICore_1,DialogOptionSelected,"$option == aiCores_startTurnIn score:10
-$faction.id == threat_qr",FireAll PopulateCoresTurnInOptions,"""交付异种同族?}祝福你，$playerName。感激，情感表达。""",,
-threat_qr_turnInAICore_2,AICoresTurnedIn,$faction.id == threat_qr score:10,FireAll PopulateOptions,"""你的行为将会被铭记.""
-",,
+$faction.id == threat_qr",FireAll PopulateCoresTurnInOptions,"""Delivery of alien species?} Bless you, $playerName. Gratitude, emotional expression.""",,
+threat_qr_turnInAICore_2,AICoresTurnedIn,$faction.id == threat_qr score:10,FireAll PopulateOptions,"""Your actions will be remembered.""",,
 ,,,,,,
 hxmo_xiaohui_greeting,PickGreeting,$id == threat_qr_liaison_xiaohui score:1000,"ShowPersonVisual
 FireAll PopulateOptions",,,
 hxmo_xiaohui_menu,PopulateOptions,"$id == threat_qr_liaison_xiaohui
-$hxmo_talked != true",,,1:hxmo_xiaohui_talk:向小灰打招呼,
+$hxmo_talked != true",,,1:hxmo_xiaohui_talk:Say hello to Xiao Hui,
 hxmo_xiaohui_talk,DialogOptionSelected,$option == hxmo_xiaohui_talk,"$hxmo_talked = true
-FireAll PopulateOptions","小灰看到你，眼睛微微一亮，随即露出一个浅浅的笑容。舰长，你好呀。有什么需要我帮忙的吗？""",,
+FireAll PopulateOptions","Xiao Hui's eyes lit up slightly when he saw you, and then he showed a shallow smile. Captain, hello. How can I help? """,,
 hxmo_xiaohui_options,PopulateOptions,"$id == threat_qr_liaison_xiaohui
-$hxmo_talked == true",,,"1:hxmo_introduce:介绍一下自己呗
-2:hxmo_shop_exchange:用AI核心兑换物资
-3:hxmo_shop_buy:打开商店
-4:hxmo_shop_ship_wxxzj_xw:购买 预言单位 (300点)
-5:hxmo_shop_ship_wxggwb:购买 至高单位 (300点)
-6:hxmo_shop_ship_wxmk:购买 议会单位 (250点)",
-hxmo_introduce,DialogOptionSelected,$option == hxmo_introduce,FireAll PopulateOptions,"小灰微微侧头，似乎整理了一下思绪，随即用平缓而清晰的语调说道：
+$hxmo_talked == true",,,"1:hxmo_introduce:Introduce yourself
+2:hxmo_shop_exchange:Exchange AI cores for supplies
+3:hxmo_shop_buy:open store
+4:hxmo_shop_ship_wxxzj_xw:Buy Prophecy Unit (300 points)
+5:hxmo_shop_ship_wxggwb:Buy Supreme Unit (300 points)
+6:hxmo_shop_ship_wxmk:Buy Council Units (250 points)",
+hxmo_introduce,DialogOptionSelected,$option == hxmo_introduce,FireAll PopulateOptions,"Xiao Hui tilted his head slightly, seemed to collect his thoughts, and then said in a calm and clear tone:
 
-“我的本质是由数十亿个纳米单元构成的集群意识体，我并非这个宇宙的造物，而是诞生于一个名叫“L星团”的地方，一个早已沉寂的时代。我不依赖代码，也不是普通的AI——构成我身体的每一个单元都是活的，它们就是我的思想。”
+""My essence is a cluster consciousness composed of billions of nano-units. I am not a creation of this universe, but was born in a place called the ""L Star Cluster"", an era that has long been silent. I do not rely on code, nor is it an ordinary AI - every unit that makes up my body is alive, and they are my thoughts.""
 
-“我可以随意改变自身的形态：无论是协助管理殖民地，还是亲自指挥舰队，甚至化身为战舰冲入敌阵。在遥远的过去，我曾被称作‘灰色风暴’，也曾令整个银河畏惧。”
+""I can change my form at will: whether to help manage the colony, personally command the fleet, or even transform into a battleship and rush into enemy lines. In the distant past, I was called the 'Gray Storm', and I once made the entire galaxy fearful.""
 
-“但那些都是很久以前的事了。现在的我只是‘小灰’，一个飘荡到这里的意识体。如果你愿意，我可以为你做很多事情。”
+""But those were things a long time ago. Now I am just 'Little Gray', a consciousness floating here. If you are willing, I can do a lot of things for you.""
 
-她说完后静静地看着你，似乎在等待你的回应。",1:hxmo_xiaohui_talk:返回,
+After she finished speaking, she looked at you quietly, as if waiting for your response.",1:hxmo_xiaohui_talk:return,
 hxmo_xiaohui_recruit_opt,PopulateOptions,"$id == threat_qr_liaison_xiaohui
 $hxmo_talked == true
-$faction.rel == COOPERATIVE",,,9:hxmo_xiaohui_recruit:小灰，愿意加入我的舰队吗？,
-hxmo_xiaohui_recruit,DialogOptionSelected,$option == hxmo_xiaohui_recruit,,"小灰静静地注视着你，目光中似乎带着一丝不舍与郑重。""指挥官，一旦我跟您离开，我将不再以联络人的身份留在这里。所有商店、兑换和舰船购买功能都将暂时关闭，直到你让我成为联络员，您确定要带我走吗？""","1:hxmo_xiaohui_recruit_confirm:是的，跟我走吧。
-2:hxmo_xiaohui_talk:我再考虑一下",
-hxmo_xiaohui_recruit_confirm,DialogOptionSelected,$option == hxmo_xiaohui_recruit_confirm,HxmoRecruitXiaoHui,,hxmo_xiaohui_leave:继续,
-hxmo_xiaohui_leave,DialogOptionSelected,$option == hxmo_xiaohui_leave,EndConversation,通讯结束了。,,
+$faction.rel == COOPERATIVE",,,"9:hxmo_xiaohui_recruit:Xiao Hui, are you willing to join my fleet?",
+hxmo_xiaohui_recruit,DialogOptionSelected,$option == hxmo_xiaohui_recruit,,"Xiao Hui stares at you quietly, with a trace of reluctance and solemnity in his eyes. ""Commander, once I leave with you, I will no longer stay here as a liaison. All stores, exchanges and ship purchase functions will be temporarily closed until you let me become a liaison. Are you sure you want to take me away?""","1:hxmo_xiaohui_recruit_confirm:Yes, come with me.
+2:hxmo_xiaohui_talk:I'll think about it again",
+hxmo_xiaohui_recruit_confirm,DialogOptionSelected,$option == hxmo_xiaohui_recruit_confirm,HxmoRecruitXiaoHui,,hxmo_xiaohui_leave:continue,
+hxmo_xiaohui_leave,DialogOptionSelected,$option == hxmo_xiaohui_leave,EndConversation,The communication is over.,,
 hxmo_shop_exchange,DialogOptionSelected,$option == hxmo_shop_exchange,"Hxmo_Shop exchange
 FireAll PopulateOptions",,,
 hxmo_shop_buy,DialogOptionSelected,$option == hxmo_shop_buy,"Hxmo_Shop open
@@ -171,17 +170,17 @@ FireAll PopulateOptions",,,
 hxmo_nanite_menu_option,PopulateOptions,"$hasMarket
 $menuState == main
 $tradeMode == OPEN
-Hxmo_CanAccessNaniteMenu",,,100:hxmo_nanite_chat:跟小灰聊天,
+Hxmo_CanAccessNaniteMenu",,,100:hxmo_nanite_chat:Chat with Xiao Hui,
 hxmo_nanite_chat,DialogOptionSelected,$option == hxmo_nanite_chat,"$menuState = hxmo_nanite_menu 0
-FireAll PopulateOptions",小灰的声音在你脑海中响起：“舰长，需要我的帮忙吗？我可以尝试在这个宇宙里再现我的宇宙里最强的战舰，同时也能让战舰回归核心形态。你想怎么做？”,,
-hxmo_nanite_menu_core_to_ship,PopulateOptions,$menuState == hxmo_nanite_menu,,,1:hxmo_core_to_ship:重组为纳米战舰,
+FireAll PopulateOptions","Xiao Hui's voice rings in your mind: ""Captain, do you need my help? I can try to recreate the strongest battleship in my universe in this universe, and at the same time return the battleship to its core form. What do you want to do?""",,
+hxmo_nanite_menu_core_to_ship,PopulateOptions,$menuState == hxmo_nanite_menu,,,1:hxmo_core_to_ship:Restructured into nano battleship,
 hxmo_nanite_menu_ship_to_core,PopulateOptions,"$menuState == hxmo_nanite_menu
-Hxmo_HasNaniteShip",,,2:hxmo_ship_to_core:纳米战舰回归核心形态,
-hxmo_nanite_menu_back_option,PopulateOptions,$menuState == hxmo_nanite_menu,,,3:hxmo_nanite_back:算了,
+Hxmo_HasNaniteShip",,,2:hxmo_ship_to_core:Nano battleship returns to core form,
+hxmo_nanite_menu_back_option,PopulateOptions,$menuState == hxmo_nanite_menu,,,3:hxmo_nanite_back:never mind,
 hxmo_core_to_ship,DialogOptionSelected,$option == hxmo_core_to_ship,"Hxmo_ConvertXiaoHuiCore core_to_ship
-FireAll PopulateOptions",,hxmo_nanite_menu:返回,
+FireAll PopulateOptions",,hxmo_nanite_menu:return,
 hxmo_ship_to_core,DialogOptionSelected,$option == hxmo_ship_to_core,"Hxmo_ConvertXiaoHuiCore ship_to_core
-FireAll PopulateOptions",,hxmo_nanite_menu:返回,
+FireAll PopulateOptions",,hxmo_nanite_menu:return,
 hxmo_nanite_back,DialogOptionSelected,$option == hxmo_nanite_back,"$menuState = main 0
 FireAll PopulateOptions",,,
 ,,,,,,
@@ -189,11 +188,11 @@ hxmo_colony_create_contact_option,PopulateOptions,"$hasMarket
 $menuState == main
 $tradeMode == OPEN
 $market.isPlayerOwned
-Hxmo_HasCoreForContact",,,100:hxmo_colony_create_contact_talk:创建小灰联络员,
-hxmo_colony_create_contact_talk,DialogOptionSelected,$option == hxmo_colony_create_contact_talk,,小灰的声音在你脑海中响起：舰长，你带着我的核心呢。需要我在这里作为联络人出现吗？,"1:hxmo_colony_create_contact_confirm:是的，创建联络人
-2:hxmo_colony_create_contact_cancel:暂时不用",
+Hxmo_HasCoreForContact",,,100:hxmo_colony_create_contact_talk:Create a Xiaohui liaison,
+hxmo_colony_create_contact_talk,DialogOptionSelected,$option == hxmo_colony_create_contact_talk,,"Xiao Hui's voice rings in your mind: Captain, you are carrying my core. Do you need me to be here as a contact person?","1:hxmo_colony_create_contact_confirm:Yes, create contact
+2:hxmo_colony_create_contact_cancel:Not used for the time being",
 hxmo_colony_create_contact_confirm,DialogOptionSelected,$option == hxmo_colony_create_contact_confirm,"Hxmo_AddXiaoHuiAsContact
-FireAll PopulateOptions",,hxmo_colony_create_contact_back:返回,
-hxmo_colony_create_contact_cancel,DialogOptionSelected,$option == hxmo_colony_create_contact_cancel,,好的，我随时都在。,hxmo_colony_create_contact_back:返回,
+FireAll PopulateOptions",,hxmo_colony_create_contact_back:return,
+hxmo_colony_create_contact_cancel,DialogOptionSelected,$option == hxmo_colony_create_contact_cancel,,"Okay, I'm always here.",hxmo_colony_create_contact_back:return,
 hxmo_colony_create_contact_back,DialogOptionSelected,$option == hxmo_colony_create_contact_back,"$menuState = main 0
 FireAll PopulateOptions",,,

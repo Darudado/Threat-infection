@@ -1,2 +1,2 @@
 id,name,faction,desc,script,icon,order
-ThreatSubmarket,威胁走私,threat,渗入到威胁殖民地的人所建立的隐秘市场，能够购买你意想不到的东西,data.scripts.campaign.submarkets.ThreatSubmarketPlugin,graphics/factions/black_market.png,101
+ThreatSubmarket,Threaten to smuggle,threat,Infiltrate the secret markets set up by those who threaten the colony and buy things you never thought possible.,data.scripts.campaign.submarkets.ThreatSubmarketPlugin,graphics/factions/black_market.png,101

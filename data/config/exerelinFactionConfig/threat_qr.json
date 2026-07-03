@@ -5,7 +5,7 @@
 	"marketSpawnWeight":0.1,
 
 	
-	"rebelFleetSuffix":"反叛威胁机械",
+	"rebelFleetSuffix":"rebel threat machine",
 	
     "dropPrisoners":false,
     "hostileToAll":2,
@@ -23,9 +23,9 @@
 	"colonyExpeditionChance":0.1,
     "maxColonyDistance":5,
 	
-	"vengeanceLevelNames":["裁决","扫荡","灭绝"],
-    "vengeanceFleetNames":["裁决舰队","扫荡舰队","灭绝舰队"],
-    "vengeanceFleetNamesSingle":["一支 裁决舰队","一支 扫荡舰队","一支 灭绝舰队"],
+	"vengeanceLevelNames":["ruling","sweep","extinct"],
+    "vengeanceFleetNames":["Judgment Fleet","sweep fleet","extermination fleet"],
+    "vengeanceFleetNamesSingle":["A Judgment Fleet","A sweeper fleet","An extermination fleet"],
 	
 	"factionsDisliked": [
 		"player",
